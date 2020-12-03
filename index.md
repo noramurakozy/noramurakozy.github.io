@@ -32,7 +32,7 @@ References to other medical texts/people has not been removed from the chapter t
 
 A network is created using Wikipedia API to extract the text on Wikipedia pages, along with their links to other Wikipedia pages. Every Wikipedia page is a node, and directed edges are made from the references of one Wikipedia to another Wikipedia page. The result: A directed network.
 
-As nodes cannot be expected to be linked to each other, the giant connected component (GCC) is extracted to make sure that the most possible data is being used for analysis.
+As every node cannot be expected to have links with other, the giant connected component (GCC) is extracted to make sure that the most possible data is being used for analysis.
 
 ### The network
 
@@ -69,26 +69,38 @@ One would also expect a shorter text to contain more lexical richness.
 
 Text	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text
 ---	|	---	|	---	|	---	|	---	|	---
-Wikipedia	|	633058	|	24546	|	25.79	|	23025	|	3.64%
-Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%
+Wikipedia	      |	 633058	|	24546	|	25.79	|	23025	|	3.64%
+Gray's Anatomy  |	1084200	|	46554	|	23.29	|	24552	|	2.26%
 
 > Table 1: General text information.
 
-...
+Moving on, Table 2 shows the usage of longs words in each text.
+The textbook does have a higher percentage of words that are 10-19 letters long, which could indicate a more technical language or that words are hyphenated.
+There seems to be an equally low usage of words with 20 letters or more.
 
 Text | Long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text
 --- | ---	|	---	|	---	|	---	|	---	|	---
-Wikipedia      | 53284	|	8.42%	|	3417	|	0.54%	|	192	|	0.03%
+Wikipedia      |  53284	|	 8.42%	|	3417	|	0.54%	|	192	|	0.03%
 Gray's Anatomy | 109598	|	10.11%	|	8930	|	0.82%	|	299	|	0.03%
 
 > Table 2: The word lengths.
 
+Stopwords are words that are not very descriptive, and thus it is interesting to see how much of the text consists of such words.
+Table 3 shows the amount of stopwords in the texts.
+Interestingly, about 2/5 of the words used in both texts are not contributing to the overall comprehension of the texts.
+
 Text	| Stopwords	|	% of text
 ---	| ---	|	---
-Wikipedia	| 269171	|	42.52%
+Wikipedia	      | 269171	|	42.52%
 Gray's Anatomy	| 456496	|	42.10%
 
 > Table 3: Stopwords.
+
+Next, let's have a look on the overall readability of the texts.
+The readability is given by a Lix Score (low score being easy to read, and high score being hard to read), calculated from the amount of words, sentences, and words longer than 6 letters in a given text.
+Table 4 shows the Lix Score of the two texts along with some other known litterary works for comparison.
+The yield of this test shows that the text on Wikipedia describing anatomy are as difficult to read as that of the textbook.
+This result makes sense, as sentences are a bit longer on Wikipedia, but longer words are used in the textbook.
 
 Text | Lix Score
 ---- | ---------
@@ -98,25 +110,34 @@ Wikipedia           | 56
 Gray's Anatomy      | 56
 The US Constitution | 71
 
-> Table 4: LIX readability analysis. LIX is a readability measure indicating the difficulty of reading a text developed by Swedish scholar Carl-Hugo Björnsson. LIX was originally developed for Swedish texts, but it can be seen that applying it to litterary works in English has some merit. All texts in the table have been analyzed using the same algorithm.
+> Table 4: LIX readability analysis. LIX is a readability measure indicating the difficulty of reading a text, developed by Swedish scholar Carl-Hugo Björnsson. LIX was originally developed for Swedish texts, but it can be seen that applying it to litterary works in English has some merit. All texts in the table have been analyzed using the same algorithm.
+
+Overall, the texts are surprisingly alike.
+Few significant differences were found between Wikipedia pages describing anatomy, and a medical anatomy textbook.
+Some explanations could be that the textbook is used for reference on some of the Wikipedia pages, that the way of writing in the field are very similar, or that medical texts are complicated no matter how its being written or by whom its being written by.
+Table 5 shows the above tables collectively.
 
 Text	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
-Wikipedia	|	633058	|	24546	|	25.79	|	23025	|	3.64%	|	53284	|	8.42%	|	3417	|	0.54%	|	192	|	0.03%	|	269171	|	42.52%	|	56	|	
+Wikipedia	      |	 633058	|	24546	|	25.79	|	23025	|	3.64%	|	 53284	|	 8.42%	|	3417	|	0.54%	|	192	|	0.03%	|	269171	|	42.52%	|	56	|	
 Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%	|	109598	|	10.11%	|	8930	|	0.82%	|	299	|	0.03%	|	456496	|	42.10%	|	56	|	
 
 > Table 5: Summation of the overall text analysis.
 
-### Word clouds
+Further analyses have been done on the [Wikipedia pages](https://noramurakozy.github.io/wiki) and [Gray's Anatomy](https://noramurakozy.github.io/book) for those interested.
 
-! Compare the texts and talk about readability
+### Most common words
 
-Read further about the text analysis results of [Wikipedia](https://noramurakozy.github.io/wiki) or [Gray's Anatomy](https://noramurakozy.github.io/book).
+The texts were found to be equally readable, but let's see if the same words are being used on the Wikipedia pages and in the textbook.
+For this, four wordclouds have benn constructed, two using the top 50 most used words in the texts, and two showing the words that are more unique for each text - using TF-IDF to find these words.
+
+
+
 
 ### Communities
 
 
 
-# Conclusions
+## Conclusions
 
 
