@@ -47,26 +47,46 @@ As nodes cannot be expected to be linked to each other, the giant connected comp
 
 ## Text analysis
 
-For analysing the text, the text of the Wikipedia pages are compared to the "Gray's Anatomy (41st edition)" textbook.
+Now, let's take a look at the Wikipedia text. For this, the readable text on Wikipedia has been extracted and analysed.
+For a broader understanding of the results, the text from Wikipedia is being compared to the chapter texts of "Gray's Anatomy (41st edition)" textbook.
 
 ### Results
 
-Text | Words | Sentences | Words pr. sentence | Unique words | Percentage
----- | ----- | --------- | ------------------ | ------------ | ----------
-Wikipedia      |  5 | 23 | 0.1 | 2 | 2%
-Gray's Anatomy | 10 | 23 | 0.2 | 4 | 3%
+Let's start by taking a look at the overall text stats.
+
+As seen in Table 1, there are less words on the extracted Wikipedia pages, than in the textbook.
+This can be interpreted as Wikipedia being less descriptive than the textbook, and the textbook is going into more detail about the organs.
+It can also mean that everything described by the book is not represented by the extracted Wikipedia texts.
+In any case, let's continue the analysis.
+
+The next noticible thing in Table 1 is that the sentences are 2.50 words longer pr. sentence, indicating that Wikipedia, in general, is trying to say more in every sentence.
+Later, we can see if this is the case by looking at stopwords, e.g. the, a, is, are.
+
+Lastly, there is a lack of lexical richness (percentage of unique words) in the text.
+This is most likely a result of the texts containing an extreme amount of words.
+Knowing the texts, the number of unique words are even higher as a large result of references in both the textbook and Wikipedia.
+One would also expect a shorter text to contain more lexical richness.
+
+Text	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text
+---	|	---	|	---	|	---	|	---	|	---
+Wikipedia	|	633058	|	24546	|	25.79	|	23025	|	3.64%
+Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%
 
 > Table 1: General text information.
 
-Text | Long words (10+) | Percentage | Long words (15+) | Percentage | Long words (20+) | Percentage  
----- | ---------------- | ---------- | ---------------- | ---------- | ---------------- | ----------
-Wikipedia      | 10 | 10% | 5 | 0.7% | 2 | 0.2%
-Gray's Anatomy | 100 | 15% | 10 | 0.5% | 4 | 0.2%
+...
+
+Text | Long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text
+--- | ---	|	---	|	---	|	---	|	---	|	---
+Wikipedia      | 53284	|	8.42%	|	3417	|	0.54%	|	192	|	0.03%
+Gray's Anatomy | 109598	|	10.11%	|	8930	|	0.82%	|	299	|	0.03%
 
 > Table 2: The word lengths.
 
-Text | Stop words | Percentage
----- | ---------- | ----------
+Text	| Stopwords	|	% of text
+---	| ---	|	---
+Wikipedia	| 269171	|	42.52%
+Gray's Anatomy	| 456496	|	42.10%
 
 > Table 3: Stopwords.
 
@@ -74,15 +94,24 @@ Text | Lix Score
 ---- | ---------
 The Ugly Duckling   | 30
 The Holy Bible      | 42
-Wikipedia           | ??
-Gray's Anatomy      | 58
+Wikipedia           | 56
+Gray's Anatomy      | 56
 The US Constitution | 71
 
 > Table 4: LIX readability analysis. LIX is a readability measure indicating the difficulty of reading a text developed by Swedish scholar Carl-Hugo Björnsson. LIX was originally developed for Swedish texts, but it can be seen that applying it to litterary works in English has some merit. All texts in the table have been analyzed using the same algorithm.
 
+Text	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
+Wikipedia	|	633058	|	24546	|	25.79	|	23025	|	3.64%	|	53284	|	8.42%	|	3417	|	0.54%	|	192	|	0.03%	|	269171	|	42.52%	|	56	|	
+Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%	|	109598	|	10.11%	|	8930	|	0.82%	|	299	|	0.03%	|	456496	|	42.10%	|	56	|	
+
+> Table 5: Summation of the overall text analysis.
+
+### Word clouds
+
 ! Compare the texts and talk about readability
 
-Read further about analysis results of [systems](link), [pages](link), [sections](link), and [chapters](link).
+Read further about the text analysis results of [Wikipedia](https://noramurakozy.github.io/wiki) or [Gray's Anatomy](https://noramurakozy.github.io/book).
 
 ### Communities
 
