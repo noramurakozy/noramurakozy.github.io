@@ -1,4 +1,4 @@
-# Text Analysis of Gray's Anatomy
+# Further Text Analysis of Gray's Anatomy
 
 On this page, a thorough analysis of "Gray's Anatomy (41st edition)" textbook can be found.
 The book, sections, and chapters have been analyzed individually, and the results are displayed in tables below.
@@ -6,30 +6,31 @@ A word cloud of the 50 most common words in the book is displayed for an easy ov
 Two word clouds for every section is also displayed down below: one for the 50 most common words, and one for the most unique words compared to the other chapters (using TF-IDF).
 For the chapters, the 10 most common words are displayed at the bottom.
 
+Please read the text analysis on the home page before going through the results on this page, thank you.
+
 ## Book
 
-
-
-### Results
+The whole textbook text was analyzed and considered on the home page.
+Table 1 shows the results of the analysis, and the results here are the overall results of the sections and chapters that are seen below.
 
 Text  |	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 --- |	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%	|	109598	|	10.11%	|	8930	|	0.82%	|	299	|	0.03%	|	456496	|	42.10%	|	56	|
 
-Table 1:
-
-### Word clouds
-
-
-### Discussion
-
-
+Table 1: The text analysis of the book, as seen on the home page.
 
 ## Sections
 
+The textbook is divided into 9 sections, with the first 3 sections going through fundamentals of the body, and the last 6 sections going through body parts in great details.
+Each section consists of a certain number of chapters (analyzed further below) of varying lengths and have different authors and editors.
+
 ### Results
 
-Section	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+First, let's start by looking at the statistics of each section of the textbook.
+Table 2 shows the results of the text analysis that was done similarly for the entire textbook and Wikipedia pages.
+
+
+Section	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 1	|	Cells, tissues and systems	|	129846	|	5880	|	22.08	|	9770	|	7.52%	|	16191	|	12.47%	|	1141	|	0.88%	|	78	|	0.06%	|	52426	|	40.38%	|	58	|	
 2	|	Embryogenesis	|	41546	|	1669	|	24.89	|	4994	|	12.02%	|	5151	|	12.40%	|	356	|	0.86%	|	30	|	0.07%	|	17423	|	41.94%	|	59	|	
@@ -41,7 +42,7 @@ Section	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 8	|	Abdomen and pelvis	|	183475	|	7677	|	23.90	|	8792	|	4.79%	|	18637	|	10.16%	|	1259	|	0.69%	|	52	|	0.03%	|	77565	|	42.28%	|	56	|	
 9	|	Pelvic girdle and lower limb	|	114778	|	5097	|	22.52	|	5425	|	4.73%	|	9328	|	8.13%	|	555	|	0.48%	|	20	|	0.02%	|	49159	|	42.83%	|	54	|	
 
-Table 2
+Table 2: The 9 sections of the book.
 
 ### Word clouds
 
@@ -49,7 +50,7 @@ Table 2
 
 ### Results
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 1	|	Basic structure and function of cells	|	20374	|	948	|	21.49	|	3388	|	16.63%	|	2704	|	13.27%	|	189	|	0.93%	|	33	|	0.16%	|	8017	|	39.35%	|	61	|	
 2	|	Integrating cells into tissues	|	11687	|	501	|	23.33	|	2349	|	20.10%	|	1520	|	13.01%	|	99	|	0.85%	|	8	|	0.07%	|	4676	|	40.01%	|	60	|	
@@ -61,7 +62,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 3: Text analysis of the chapters in Section 1: Cells, tissues and systems.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 8	|	Preimplantation development	|	5128	|	205	|	25.01	|	1389	|	27.09%	|	654	|	12.75%	|	33	|	0.64%	|	2	|	0.04%	|	2229	|	43.47%	|	59	|	
 9	|	Implantation and placentation	|	8345	|	354	|	23.57	|	1939	|	23.24%	|	1045	|	12.52%	|	116	|	1.39%	|	7	|	0.08%	|	3423	|	41.02%	|	60	|	
@@ -74,7 +75,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 4: Text analysis of the chapters in Section 2: Embryogenesis.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 16	|	Overview of the nervous system	|	7918	|	336	|	23.57	|	1618	|	20.43%	|	872	|	11.01%	|	83	|	1.05%	|	1	|	0.01%	|	3190	|	40.29%	|	59	|	
 17	|	Development of the nervous system	|	28786	|	1154	|	24.94	|	3716	|	12.91%	|	3295	|	11.45%	|	277	|	0.96%	|	6	|	0.02%	|	12079	|	41.96%	|	58	|	
@@ -89,7 +90,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 5: Text analysis of the chapters in Section 3: Neuroanatomy.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 26	|	Head and neck: overview and surface anatomy	|	8243	|	330	|	24.98	|	1498	|	18.17%	|	669	|	8.12%	|	98	|	1.19%	|	0	|	0.00%	|	3566	|	43.26%	|	56	|	
 27	|	External skull	|	10353	|	430	|	24.08	|	1811	|	17.49%	|	954	|	9.21%	|	93	|	0.90%	|	0	|	0.00%	|	4571	|	44.15%	|	56	|	
@@ -111,7 +112,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 6: Text analysis of the chapters in Section 4: Head and neck.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 43	|	Back	|	32139	|	1479	|	21.73	|	3075	|	9.57%	|	2742	|	8.53%	|	206	|	0.64%	|	2	|	0.01%	|	13656	|	42.49%	|	55	|	
 44	|	Development of the back	|	6311	|	286	|	22.07	|	1374	|	21.77%	|	735	|	11.65%	|	46	|	0.73%	|	1	|	0.02%	|	2672	|	42.34%	|	55	|	
@@ -119,7 +120,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 7: Text analysis of the chapters in Section 5: Back.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 46	|	Pectoral girdle and upper limb: overview and surface anatomy	|	12413	|	528	|	23.51	|	1593	|	12.83%	|	926	|	7.46%	|	88	|	0.71%	|	1	|	0.01%	|	5402	|	43.52%	|	52	|	
 47	|	Development of the pectoral girdle and upper limb	|	2435	|	104	|	23.41	|	790	|	32.44%	|	242	|	9.94%	|	11	|	0.45%	|	0	|	0.00%	|	1048	|	43.04%	|	53	|	
@@ -129,7 +130,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 8: Text analysis of the chapters in Section 6: Pectoral girdle and upper limb.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 51	|	Thorax: overview and surface anatomy	|	5628	|	203	|	27.72	|	1045	|	18.57%	|	502	|	8.92%	|	43	|	0.76%	|	0	|	0.00%	|	2373	|	42.16%	|	58	|	
 52	|	Development of the thorax	|	23394	|	944	|	24.78	|	3192	|	13.64%	|	2961	|	12.66%	|	291	|	1.24%	|	10	|	0.04%	|	9980	|	42.66%	|	58	|	
@@ -142,7 +143,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 9: Text analysis of the chapters in Section 7: Thorax.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 59	|	Abdomen and pelvis: overview and surface anatomy	|	10842	|	425	|	25.51	|	1852	|	17.08%	|	1109	|	10.23%	|	85	|	0.78%	|	0	|	0.00%	|	4507	|	41.57%	|	58	|	
 60	|	Development of the peritoneal cavity, gastrointestinal tract and its adnexae	|	19640	|	847	|	23.19	|	2715	|	13.82%	|	2274	|	11.58%	|	172	|	0.88%	|	18	|	0.09%	|	8476	|	43.16%	|	56	|	
@@ -166,7 +167,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 
 Table 10: Text analysis of the chapters in Section 8: Abdomen and pelvis.
 
-Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
+Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
 78	|	Pelvic girdle and lower limb: overview and surface anatomy	|	12123	|	494	|	24.54	|	1817	|	14.99%	|	920	|	7.59%	|	41	|	0.34%	|	0	|	0.00%	|	5316	|	43.85%	|	54	|	
 79	|	Development of the pelvic girdle and lower limb	|	2677	|	117	|	22.88	|	910	|	33.99%	|	261	|	9.75%	|	8	|	0.30%	|	1	|	0.04%	|	1178	|	44.00%	|	53	|	
@@ -183,87 +184,170 @@ Table 11: Text analysis of the chapters in Section 9: Pelvic girdle and lower li
 Below, the 10 most common words (in order after number of mentions) can be found.
 
 Chapter 1: cell, cells, proteins, membrane, protein, form, filaments, plasma, see, molecules
+
 Chapter 2: cells, tissue, tissues, connective, cell, glands, epithelium, e.g., matrix, form
+
 Chapter 3: cells, neurones, fibres, axons, cns, muscle, axon, cell, endings, myelin
+
 Chapter 4: cells, lymphocytes, blood, macrophages, marrow, b, cell, lymphoid, dendritic, tissues
+
 Chapter 5: bone, muscle, cartilage, fibres, cells, collagen, muscles, growth, bones, joints
+
 Chapter 6: muscle, cells, smooth, blood, vessels, arteries, cardiac, cell, endothelial, veins
+
 Chapter 7: cells, skin, layer, hair, nail, epidermis, dermis, matrix, surface, lines
+
 Chapter 8: cells, cell, embryos, hypoblast, embryo, trophoblast, development, extraembryonic, epiblast, blastocyst
+
 Chapter 9: cells, maternal, fetal, amniotic, umbilical, placenta, trophoblast, blood, decidua, villi
+
 Chapter 10: cells, streak, primitive, plate, neural, epiblast, embryonic, epithelial, cell, disc
+
 Chapter 11: cells, cell, tissue, development, embryo, within, interactions, molecules, e.g., embryonic
+
 Chapter 12: cells, mesenchyme, neural, crest, embryo, form, lateral, epithelium, ectoderm, mesenchymal
+
 Chapter 13: veins, arteries, vessels, vein, early, dorsal, umbilical, embryo, lymph, form
+
 Chapter 14: growth, birth, fetal, age, weeks, weight, period, length, development, delivery
+
 Chapter 15: limb, bud, cells, development, ectodermal, ridge, apical, mesenchyme, axons, movements
+
 Chapter 16: spinal, neurones, nerves, fibres, sympathetic, system, cranial, ganglia, cord, nervous
+
 Chapter 17: cells, neural, neurones, lateral, crest, plate, part, form, cerebral, zone
+
 Chapter 18: ventricle, lateral, space, fourth, csf, subarachnoid, choroid, inferior, plexus, cistern
+
 Chapter 19: artery, cerebral, posterior, anterior, arteries, branches, supply, internal, lateral, blood
+
 Chapter 20: neurones, fibres, spinal, tract, dorsal, cord, ventral, lateral, nucleus, lamina
+
 Chapter 21: nucleus, fibres, nuclei, neurones, medial, nerve, lateral, spinal, ventral, dorsal
+
 Chapter 22: nucleus, fibres, cerebellum, cerebellar, nuclei, cells, purkinje, zones, lobule, cortex
+
 Chapter 23: nucleus, nuclei, lateral, posterior, medial, neurones, fibres, ventral, anterior, hypothalamus
+
 Chapter 24: nucleus, striatum, subthalamic, internal, caudate, neurones, basal, pars, ventral, ganglia
+
 Chapter 25: cortex, area, temporal, gyrus, areas, anterior, fibres, inferior, medial, lateral
+
 Chapter 26: neck, cervical, anterior, posterior, border, nerve, palpable, cm, vein, branches
+
 Chapter 27: bone, skull, bones, posterior, foramen, process, temporal, part, fossa, growth
+
 Chapter 28: sinus, posterior, bone, cranial, superior, foramen, anterior, meningeal, veins, sinuses
+
 Chapter 29: artery, cervical, anterior, nerve, carotid, posterior, thyroid, inferior, vein, branches
+
 Chapter 30: nerve, bone, artery, surface, facial, part, nasal, anterior, lateral, posterior
+
 Chapter 31: lingual, nerve, teeth, tongue, surface, gland, part, artery, alveolar, glands
+
 Chapter 32: nerve, pterygoid, lateral, artery, anterior, mandibular, posterior, medial, fossa, part
+
 Chapter 33: nasal, lateral, anterior, part, posterior, olfactory, sinus, sinuses, ethmoidal, cells
+
 Chapter 34: pharyngeal, palate, part, artery, tonsil, posterior, palatine, soft, swallowing, pharynx
+
 Chapter 35: vocal, laryngeal, larynx, folds, cartilage, thyroid, posterior, nerve, arytenoid, superior
+
 Chapter 36: form, neural, arch, pharyngeal, part, mesenchyme, crest, cells, first, bone
+
 Chapter 37: tympanic, part, posterior, bone, nerve, mastoid, anterior, membrane, process, cavity
+
 Chapter 38: cells, hair, cochlear, vestibular, membrane, nerve, inner, spiral, outer, cell
+
 Chapter 39: part, ear, cells, first, arch, tympanic, pharyngeal, second, cavity, inner
+
 Chapter 40: optic, cells, lens, eye, neural, retina, epithelium, cup, anterior, layer
+
 Chapter 41: nerve, superior, orbital, inferior, lateral, lacrimal, medial, orbit, artery, rectus
+
 Chapter 42: cells, retina, layer, optic, ciliary, retinal, lens, nerve, anterior, fibres
+
 Chapter 43: vertebral, posterior, lumbar, cervical, lateral, thoracic, anterior, transverse, muscles, vertebrae
+
 Chapter 44: cells, vertebrae, processes, neural, somite, vertebral, form, development, sclerotome, dermomyotome
+
 Chapter 45: spinal, dorsal, cord, roots, nerves, cervical, branches, nerve, ventral, vertebral
+
 Chapter 46: nerve, lateral, deep, medial, artery, anterior, flexor, posterior, radial, muscles
+
 Chapter 47: limb, upper, artery, hand, bud, stage, distal, ulnar, mesenchyme, arteries
+
 Chapter 48: lateral, medial, artery, anterior, posterior, nerve, border, surface, joint, part
+
 Chapter 49: extensor, radial, flexor, artery, ulnar, posterior, distal, interosseous, nerve, medial
+
 Chapter 50: palmar, dorsal, flexor, metacarpal, distal, pollicis, ulnar, proximal, joint, digital
+
 Chapter 51: thoracic, right, left, level, intercostal, costal, line, superior, vertebra, rib
+
 Chapter 52: heart, left, right, development, cells, pulmonary, atrioventricular, septum, lung, atrial
+
 Chapter 53: intercostal, thoracic, anterior, posterior, breast, costal, internal, first, branches, lateral
+
 Chapter 54: pulmonary, left, lung, right, superior, pleura, inferior, bronchus, surface, anterior
+
 Chapter 55: diaphragm, left, phrenic, right, nerve, inferior, fibres, superior, anterior, central
+
 Chapter 56: thoracic, left, posterior, oesophagus, right, oesophageal, vein, superior, mediastinum, thymus
+
 Chapter 57: left, right, cardiac, coronary, ventricular, artery, valve, atrial, anterior, ventricle
+
 Chapter 58: left, right, artery, aorta, posterior, thoracic, arteries, pulmonary, aortic, superior
+
 Chapter 59: plexus, superior, inferior, sympathetic, nerve, lumbar, nerves, anterior, abdominal, branches
+
 Chapter 60: dorsal, ventral, right, left, gut, cells, mesenchyme, part, development, hepatic
+
 Chapter 61: inguinal, anterior, abdominal, abdominis, fibres, oblique, ligament, rectus, wall, artery
+
 Chapter 62: lumbar, inferior, posterior, right, anterior, left, abdominal, nerve, nodes, lateral
+
 Chapter 63: peritoneum, peritoneal, left, right, posterior, abdominal, wall, ligament, anterior, omentum
+
 Chapter 64: gastric, stomach, left, oesophagus, artery, lesser, posterior, pyloric, surface, right
+
 Chapter 65: duodenum, artery, superior, cells, small, mesenteric, part, ileum, right, anterior
+
 Chapter 66: colon, anal, artery, rectal, left, colic, rectum, inferior, sigmoid, mesenteric
+
 Chapter 67: hepatic, liver, right, left, vein, portal, segment, inferior, lobe, artery
+
 Chapter 68: duct, bile, gallbladder, hepatic, common, cystic, right, artery, ducts, usually
+
 Chapter 69: artery, pancreatic, pancreas, superior, pancreaticoduodenal, anterior, posterior, gland, inferior, head
+
 Chapter 70: splenic, spleen, left, petroianu, ligament, pulp, blood, artery, gastric, posterior
+
 Chapter 71: suprarenal, gland, right, inferior, left, cells, vein, artery, arteries, cortex
+
 Chapter 72: cells, development, mesonephric, mesenchyme, bladder, ducts, duct, urogenital, form, genital
+
 Chapter 73: artery, iliac, perineal, pelvic, fascia, inferior, anterior, internal, posterior, sacral
+
 Chapter 74: renal, ureter, cells, kidney, vessels, anterior, glomerular, pelvis, arteries, inferior
+
 Chapter 75: urethra, bladder, muscle, urethral, prostate, prostatic, anterior, smooth, fibres, sphincter
+
 Chapter 76: artery, testis, cells, penis, testicular, epididymis, tunica, spermatic, veins, penile
+
 Chapter 77: uterine, uterus, cells, cervix, vessels, ovarian, ligament, vagina, pregnancy, tissue
+
 Chapter 78: lateral, medial, anterior, nerve, posterior, foot, lower, limb, joint, knee
+
 Chapter 79: limb, lower, development, hip, talus, birth, femur, vein, head, fetal
+
 Chapter 80: femoral, artery, medial, surface, anterior, lateral, nerve, posterior, part, adductor
+
 Chapter 81: hip, joint, femoral, ligament, acetabular, head, capsule, body, muscles, femur
+
 Chapter 82: lateral, medial, knee, joint, posterior, tibial, ligament, anterior, femoral, popliteal
+
 Chapter 83: anterior, lateral, posterior, medial, fibular, longus, tibial, artery, nerve, surface
+
 Chapter 84: plantar, medial, lateral, metatarsal, flexor, joint, surface, tendon, ligament, foot
 
