@@ -36,11 +36,15 @@ As every node cannot be expected to have links with other, the giant connected c
 
 ### The network
 
+![Image of network with systems](https://github.com/noramurakozy/noramurakozy.github.io/upload/main/images/the_human_body_forceatlas.png)
+
 ### Degree distribution
 
 ### Systems
 
 ### Communities
+
+![Image of network with communities](https://github.com/noramurakozy/noramurakozy.github.io/upload/main/images/the_human_body_forceatlas.png)
 
 ### Centrality
 
