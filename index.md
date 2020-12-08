@@ -14,7 +14,7 @@ This project is all about the human body. Can we see how the internal body inter
 
 A data file was manually created, containing the unique names of internal body parts and the systems that they belong to using a [Wikipedia page](https://en.wikipedia.org/wiki/List_of_organs_of_the_human_body) for inspiration.
 
-The resulting .csv data-file can be found [here](link).
+The resulting .csv data-file can be found [here](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/data/anatomy.csv).
 
 Additionaly, a cleaned version of the chapters of "Gray's Anatomy (41st edition)" (2015) is used for comparing the Wikipedia text to one of the biggest collections of knowledge of the human anatomy.
 
@@ -32,22 +32,44 @@ References to other medical texts/people has not been removed from the chapter t
 
 A network is created using Wikipedia API to extract the text on Wikipedia pages, along with their links to other Wikipedia pages. Every Wikipedia page is a node, and directed edges are made from the references of one Wikipedia to another Wikipedia page. The result: A directed network.
 
-As every node cannot be expected to have links with other, the giant connected component (GCC) is extracted to make sure that the most possible data is being used for analysis.
+Every page in the data file, surprisingly, either has links to another page in the data file, or another page in the data file links to that page.
+Thus, there is no reason to look at components
 
 ### The network
 
-![Image of network with systems](https://github.com/noramurakozy/noramurakozy.github.io/upload/main/images/the_human_body_forceatlas.png)
+Let's start by simply visualizing the network.
+For this, and further representations, undirected version of the networks are used, as they are easier to visualize.
+Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the positions in the network, a basic representation of the network can be made, showing the nodes and edges.
+
+![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_simple.png)
+
+It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
+Let's do some further analysis of the network and return to the representation later.
 
 ### Degree distribution
 
+### Centrality
+
+
 ### Systems
+
+The systems were defined manually according to the Wikipedia source. Using this attributes to color the nodes accordingly, and scaling the nodes according to their respective degrees a more meaningful representation of the network is drawn.
+
+![Image of network with systems](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_forceatlas.png)
+
+Here it can be seen that the network is not actually connected according to the defined systems.
+Rather, as the node colors are quite widespread, it seems that the nodes could be connected according to their respective location in the body.
 
 ### Communities
 
-![Image of network with communities](https://github.com/noramurakozy/noramurakozy.github.io/upload/main/images/the_human_body_forceatlas.png)
+Using...
 
-### Centrality
+This time using the communities to color the nodes, and again scaling the nodes according to their respective degrees, a representation of the community partition can be made.
 
+![Image of network with communities](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_communities.png)
+
+The same colored nodes are very different in this representation compared to that with the systems used for coloring.
+This means that the systems and communities are definitely not the same.
 
 ## Text analysis
 
@@ -108,13 +130,26 @@ This result makes sense, as sentences are a bit longer on Wikipedia, but longer 
 
 Text | Lix Score
 ---- | ---------
-The Ugly Duckling   | 30
-The Holy Bible      | 42
+[The Ugly Duckling](https://andersen.sdu.dk/vaerk/hersholt/TheUglyDuckling_e.html)   | 30
+[The Holy Bible](https://raw.githubusercontent.com/mxw/grmr/master/src/finaltests/bible.txt)      | 42
 Wikipedia           | 56
 Gray's Anatomy      | 56
-The US Constitution | 71
+[The US Constitution](https://www.archives.gov/founding-docs/constitution-transcript) | 71
 
 > Table 4: LIX readability analysis. LIX is a readability measure indicating the difficulty of reading a text, developed by Swedish scholar Carl-Hugo Björnsson. LIX was originally developed for Swedish texts, but it can be seen that applying it to litterary works in English has some merit. All texts in the table have been analyzed using the same algorithm.
+
+Sentiment analysis was also done for the texts, to check if there were any indication that one text had a different sentiment than the other.
+Looking at the other examples also used for the Lix scores, it can be seen that sentiment does not differ much between any of the different types of texts.
+
+Text | Sentiment Score
+---- | ---------
+The Ugly Duckling   | 5.36
+The Holy Bible      | 5.37
+Wikipedia           | 5.25
+Gray's Anatomy      | 5.24
+The US Constitution | 5.30
+
+> Table 5: Sentiment analysis for the same 5 texts. The sentiment of words (happiness average) are evaluated using [this page](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0026752.s001&type=supplementary).
 
 Overall, the texts are surprisingly alike.
 Few significant differences were found between Wikipedia pages describing anatomy, and a medical anatomy textbook.
@@ -123,10 +158,10 @@ Table 5 shows the above tables collectively.
 
 Text	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	long words (10+)	|	% of text	|	Long Words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
-Wikipedia	      |	 633058	|	24546	|	25.79	|	23025	|	3.64%	|	 53284	|	 8.42%	|	3417	|	0.54%	|	192	|	0.03%	|	269171	|	42.52%	|	56	|	
-Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%	|	109598	|	10.11%	|	8930	|	0.82%	|	299	|	0.03%	|	456496	|	42.10%	|	56	|	
+Wikipedia	      |	 633058	|	24546	|	25.79	|	23025	|	3.64%	|	 53284	|	 8.42%	|	3417	|	0.54%	|	192	|	0.03%	|	269171	|	42.52%	|	56	| 5.25
+Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%	|	109598	|	10.11%	|	8930	|	0.82%	|	299	|	0.03%	|	456496	|	42.10%	|	56	|	5.24
 
-> Table 5: Summation of the overall text analysis.
+> Table 6: Summation of the overall text analysis.
 
 Further analyses have been done on the [Wikipedia pages](https://noramurakozy.github.io/wiki) and [Gray's Anatomy](https://noramurakozy.github.io/book) for those interested.
 
