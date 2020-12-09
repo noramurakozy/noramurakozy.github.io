@@ -68,7 +68,7 @@ Now that we are more familiriaze with communitites, let's talk about the communi
 ![Communities Distribution](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png)
 <figure>
   <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png" alt="Trulli" style="width:100%">
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+  <figcaption>                              Fig.1 - Distribution of the communities in the human body network. </figcaption>
 </figure>
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
