@@ -263,7 +263,7 @@ Further analyses have been done on the [Gray's Anatomy](https://noramurakozy.git
 
 The texts were found to be equally readable, but let's see if the same words are being used on the Wikipedia pages and in the textbook.
 
-For this, four wordclouds have been constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using **Term Frequency – Inverse Document Frequency (TF-IDF)** - to find these words. Term Frequency is is the number of times a term (word) occurs in a document. And TF-IDF is when that frequency of words is multiplied by a weight that adjust the fact that some words appear more frequently in general, so for example in our case the word "the" would have less importance than the word "heart".
+For this, four wordclouds have been constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using **Term Frequency – Inverse Document Frequency (TF-IDF)** - to find these words. Term Frequency is is the number of times a term (word) occurs in a document. And TF-IDF is when that frequency of words is multiplied by a weight that adjust the fact that some words appear more frequently in general, so for example in our case the word "the" would have less importance than the word "heart". The equation for both, TF and TF-IDF, can be found in [here](https://en.wikipedia.org/wiki/Tf–idf).
 
 First, we have the wordclouds for the Wikipedia pages and the textbook when using only Term Frequency.
 
@@ -401,6 +401,7 @@ It can be seen in the system word clouds that some common anatomical terms like 
 
 ## References
 [1] https://en.wikipedia.org/wiki/Degree_distribution
+
 [2] https://www.sciencedirect.com/topics/computer-science/community-detection
 
 
