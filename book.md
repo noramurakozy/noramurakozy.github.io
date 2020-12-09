@@ -79,7 +79,7 @@ Figure 7: Word cloud of section 7 - Thorax. | Figure 8: Word cloud of section 8 
 
 ![](/images/section_9.png) | <img width=500/>
 :-------------------------:|:-------------------------:
-Figure 9: Word cloud of section 9 - Pelvic girdle and lower limb. | <img width=1000/>
+Figure 9: Word cloud of section 9 - Pelvic girdle and lower limb. | <img width=1130/>
 
 
 ## Chapters
