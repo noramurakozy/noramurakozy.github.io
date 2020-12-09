@@ -41,10 +41,9 @@ Let's start by simply visualizing the network.
 For this, and further representations, undirected version of the networks are used, as they are easier to visualize.
 Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the positions in the network, a basic representation of the network can be made, showing the nodes and edges.
 
-<figure>
-  <img src="./images/the_human_body_simple.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 1 - Simple drawing version of the human body network. </em> </figcaption>
-</figure>
+[network1](./images/the_human_body_simple.png)
+
+> Figure 1 - Simple drawing version of the human body network.
 
 It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
 Let's do some further analysis of the network and return to the representation later.
@@ -267,8 +266,11 @@ IMAGES
 
 CONCLUSION
 
-### Communities and System similitudes and differences
+### Communities and System similarities and differences
 
+![](/images/wordcloud_Retina-Human eye-Lens (anatomy).png)  |  ![](/images/wordcloud_Scapula-Hand-Humerus.png)
+:-------------------------:|:-------------------------:
+> Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
 
 ## References
 [1] https://www.sciencedirect.com/topics/computer-science/community-detection
