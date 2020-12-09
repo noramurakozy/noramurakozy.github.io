@@ -73,7 +73,7 @@ The pages with most references from other anatomy pages:
 Looking at the pages with most in degree, it is no surprise that artery, vein and nerves are listed, as they are essential in many parts of the body. And, again, the pelvis area has a lot going on around it.
 
 Let's also check the nodes with the most degrees in general (using an undirected version of the network). 
-**1.	Artery with 106 degrees**
+1.	**Artery with 106 degrees**
 2.	Human brain with 83 degrees
 3.	Pelvis with 82 degrees
 4.	Facial nerve with 81 degrees
