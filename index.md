@@ -70,9 +70,35 @@ Now that we are more familiriaze with communitites, let's talk about the communi
 <div style="text-align:left">
   <figure >
     <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png" alt="Trulli" style="width:100%">
-    <figcaption>Fig.1 - Distribution of the communities in the human body network. </figcaption>
+    <figcaption style=>Fig.1 - Distribution of the communities in the human body network. </figcaption>
   </figure>
 </div>  
+<html>
+<head>
+<style>
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<figure>
+  <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png" alt="Trulli" style="width:100%" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
+</figure>
+
+</body>
+</html>
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
 "suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
