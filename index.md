@@ -43,7 +43,7 @@ Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the 
 
 <figure>
   <img src="./images/the_human_body_simple.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > Figure 1 - Simple drawing version of the network of the human body </figcaption>
+  <figcaption style="text-align: center" > *Figure 1 - Simple drawing version of the network of the human body* </figcaption>
 </figure>
 
 It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
