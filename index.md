@@ -182,6 +182,8 @@ First, we have the wordcloud for the Wikipedia pages and the textbook when using
 Next we see the wordclouds for both but using Term Frequency- Inverse Document Frequency.
 ![Wikipedia book_tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_book_tfidf.png)
 
+CONCLUSION
+
 ### Systems
 The nodes in our network have an attribute called "System", which represent the system in which the node belongs to. We also want to create the wordclouds for these systems, which are 9 in total, to compare with the communities one which are going to be create later. We repeat the same operations as before with the TF-IDF wordclouds, so we get the unique words of each system in our network. 
 
@@ -204,7 +206,18 @@ Now we can get the TF-IDF values for all the system to draw the following wordcl
 ![reproductive_respiratory](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_reproductive_respiratory.png)
 ![urinary](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_Urinary_system.png)
 
+CONCLUSION
+
 ### Communities
+
+INTRODUCTION
+
+IMAGES
+
+
+CONCLUSION
+
+### Communities and System similitudes and differences
 
 
 ## References
