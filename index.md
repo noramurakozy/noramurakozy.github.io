@@ -237,30 +237,35 @@ And with them we create the dictionary that will contains each system with its c
 
 In this way we can get the TF-IDF values for all the systems and draw the following wordclouds:
 
-<figure>
-  <img src="./images/wordcloud_circulatory_digestive.png" alt="tf_idf1" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the circulatory and the digestive systems. </em> </figcaption>
-</figure>
+![s1](/images/wordcloud_Circulatory_system.png)  |  ![s2](/images/wordcloud_Digestive_system.png)
+:-------------------------:|:-------------------------:
+Figure 7 - Circulatory system wordcloud. | Figure 8: Digestive system wordcloud.
 
-<figure>
-  <img src="./images/wordcloud_muscular_nervous.png" alt="tf_idf2" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 8 - Wordclouds for the muscular and the nervous systems. </em> </figcaption>
-</figure>
+<br>
 
-<figure>
-  <img src="./images/wordcloud_endocrine_integumentary.png" alt="tf_idf3" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 9 - Wordclouds for the endocrine and the integumentary systems. </em> </figcaption>
-</figure>
+![s3](/images/wordcloud_Endocrine_system.png)  |  ![s4](/images/wordcloud_Integumentary_system.png)
+:-------------------------:|:-------------------------:
+Figure 9 - Endocrine system wordcloud. | Figure 10: Integumentary system wordcloud.
 
-<figure>
-  <img src="./images/wordcloud_reproductive_respiratory.png" alt="tf_idf4" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 10 - Wordclouds for the reproductive and the respiratory systems. </em> </figcaption>
-</figure>
+<br>
 
-<figure>
-  <img src="./images/wordcloud_Urinary_system.png" alt="tf_idf5" style="width:60%; text-align: center" >
-  <figcaption style="text-align: center" > <em> Figure 11 - Wordclouds for the urinary system. </em> </figcaption>
-</figure>
+![s5](/images/wordcloud_Muscular_system.png)  |  ![s6](/images/wordcloud_Nervous_system.png)
+:-------------------------:|:-------------------------:
+Figure 11 - Muscular system wordcloud. | Figure 12: Nervous system wordcloud.
+
+<br>
+
+![s7](/images/wordcloud_Reproductive_organs.png)  |  ![s8](/images/wordcloud_Respiratory_system.png)
+:-------------------------:|:-------------------------:
+Figure 13 - Reproductive organs wordcloud. | Figure 14: Respiratory system wordclouds.
+
+<br>
+
+![s9](/images/wordcloud_Urinary_system.png)  |  
+:-------------------------:|
+Figure 15 - Urinary system wordcloud. | 
+
+<br>
 
 It is already known how the systems are different, and the resulting words in each word cloud is quite predictable, but it is still interesting to compare the systems and communities.
 
