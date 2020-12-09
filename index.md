@@ -116,7 +116,20 @@ The 5 nodes with the highest eigenvector centrality corresponding to out-edges a
 
 ### Systems
 
-The systems were defined manually according to the Wikipedia source. Using this attributes to color the nodes accordingly, and scaling the nodes according to their respective degrees a more meaningful representation of the network is drawn.
+The nodes in our network have an attribute called "System", which representd the system to which the node belong. In a further section we will also realize a text analysis  for the words in each of these systems.
+
+The names of the systems in our network are:
+ - Circulatory system
+ - Digestive system 
+ - Endocrine system
+ - Integumentary system
+ - Muscular system
+ - Nervous system
+ - Reproductive organs
+ - Respiratory system
+ - Urinary system
+
+These systems were defined manually according to the Wikipedia source. Using this attributes to color the nodes accordingly, and scaling the nodes according to their respective degrees a more meaningful representation of the network is drawn.
 
 <figure>
   <img src="./images/the_human_body_systems.png" alt="Trulli" style="width:100%">
@@ -275,7 +288,7 @@ Another example is that "cell" is a common word in both texts, but is mentioned 
 Besides the medical terms, present are also a lot of names, places, and other words that are used in referencing on Wikipedia, where the same cannot quite be found in the textbook.
 
 ### Systems
-The nodes in our network have an attribute called "System", which represent the system in which the node belongs to. We also want to create the wordclouds for these systems, which are 9 in total, to compare with the communities ones that are going to be created later. We repeat the same operations as before with the TF-IDF wordclouds, so we get the unique words of each system in our network. 
+As said in the previous section of systems, we also create the wordclouds for them, which are 9 in total. The aim is to compare them with the communities wordclouds that are going to be created later. We repeat the same operations as before with the TF-IDF wordclouds, so we get the unique words of each system in our network. 
 
 Before creating the wordclouds, we get the names of the systems:
  - Circulatory system
