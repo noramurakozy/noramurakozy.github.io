@@ -201,6 +201,7 @@ First, we have the wordclouds for the Wikipedia pages and the textbook when usin
   </figcaption>
 </figure>
 
+
 Next we see the wordclouds for both when using Term Frequency- Inverse Document Frequency.
 
 <figure>
