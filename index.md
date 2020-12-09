@@ -67,7 +67,7 @@ Now that we are more familiriaze with communitites, let's talk about the communi
 
 ![Communities Distribution](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png)
 
-When calculatin the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
+When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
 "suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
 
 This time using the communities to color the nodes, and again scaling the nodes according to their respective degrees, a representation of the community partition can be made.
@@ -174,9 +174,15 @@ Further analyses have been done on the [Wikipedia pages](https://noramurakozy.gi
 ### Most common words
 
 The texts were found to be equally readable, but let's see if the same words are being used on the Wikipedia pages and in the textbook.
-For this, four wordclouds have benn constructed, two using the top 50 most used words in the texts, and two showing the words that are more unique for each text - using TF-IDF to find these words.
+For this, four wordclouds have benn constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using TF-IDF to find these words.
 
+So firt we have the wordcloud for the Wikipedia pages and the textbook when using Term Frequency.
+![Wikipedia tf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_pages_tf.png)
+![Book tf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_gray_anatomy_book_tf.png)
 
+Next we see the wordclouds for both but using Term Frequency- Inverse Document Frequency.
+![Wikipedia tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_pages_tfidf.png)
+![Book tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_gray_anatomy_book_tfidf.png)
 
 
 ### Communities
