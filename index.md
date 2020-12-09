@@ -278,13 +278,13 @@ Figure 14 - Wordcloud of a community. | Figure 15: Wordclouds of a community.
 
 <br>
 
-![c5](/images/wordcloud_Scapula-Hand-Humerus.png)  |  ![c6](/images/wordcloud_Human skin-Tendon-Foot.png)
+![c5](/images/wordcloud_Scapula-Hand-Humerus.png)  |  ![c6](/images/wordcloud_Human_skin-Tendon-Foot.png)
 :-------------------------:|:-------------------------:
 Figure 16 - Wordcloud of a community. | Figure 17: Wordclouds of a community.
 
 <br>
 
-![c7](/images/wordcloud_Retina-Human eye-Lens (anatomy).png)  |  ![c8](/images/wordcloud_Clitoris-Vagina-Vulva.png)
+![c7](/images/wordcloud_Retina-Human_eye-Lens_(anatomy).png)  |  ![c8](/images/wordcloud_Clitoris-Vagina-Vulva.png)
 :-------------------------:|:-------------------------:
 Figure 18 - Wordcloud of a community. | Figure 19: Wordclouds of a community.
 
