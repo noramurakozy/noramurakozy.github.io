@@ -210,9 +210,9 @@ Next we see the wordclouds for both when using Term Frequency- Inverse Document 
 
 
 
-![s1](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![s2](/images/wordcloud_gray anatomy_book_tfidf.png)
+![s1](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![s2](/images/wordcloud_gray_anatomy_book_tfidf.png)
 :-------------------------:|:-------------------------:
-> Figure 7 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 8: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
+Figure 7 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 8: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
 
 
 CONCLUSION
