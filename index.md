@@ -270,24 +270,31 @@ As in previous points, first we get the list of tokens (words) of each community
 :-------------------------:|:-------------------------:
 Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
 
+<br>
 
 ![c3](/images/wordcloud_Heart-Lung-Thyroid.png)  |  ![c4](/images/wordcloud_Human brain-Cerebellum-Spinal cord.png)
 :-------------------------:|:-------------------------:
 Figure 14 - Wordcloud of a community. | Figure 15: Wordclouds of a community.
 
+<br>
 
 ![c5](/images/wordcloud_Scapula-Hand-Humerus.png)  |  ![c6](/images/wordcloud_Human skin-Tendon-Foot.png)
 :-------------------------:|:-------------------------:
 Figure 16 - Wordcloud of a community. | Figure 17: Wordclouds of a community.
 
+<br>
+
 ![c7](/images/wordcloud_Retina-Human eye-Lens (anatomy).png)  |  ![c8](/images/wordcloud_Clitoris-Vagina-Vulva.png)
 :-------------------------:|:-------------------------:
 Figure 18 - Wordcloud of a community. | Figure 19: Wordclouds of a community.
+
+<br>
 
 ![c9](/images/wordcloud_Liver-Kidney-Pancreas.png)  |  
 :-------------------------:|:-------------------------:
 Figure 19 - Wordcloud of a community. | 
 
+<br>
 
 The title of each wordcloud are the three longest pages found in each commmunity. With them it is possible to get a better understanding of what each community contains.
 
