@@ -263,14 +263,32 @@ INTRODUCTION
 
 IMAGES
 
+![](/images/wordcloud_Pelvis-Sacrum-Hip bone.png)  |  ![](/images/wordcloud_Human tooth-Ear-Trigeminal nerve.png)
+:-------------------------:|:-------------------------:
+Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
+
+
+![](/images/wordcloud_Heart-Lung-Thyroid.png)  |  ![](/images/wordcloud_Human brain-Cerebellum-Spinal cord.png)
+:-------------------------:|:-------------------------:
+Figure 14 - Wordcloud of a community. | Figure 15: Wordclouds of a community.
+
+
+![](/images/wordcloud_Scapula-Hand-Humerus.png)  |  ![](/images/wordcloud_Human skin-Tendon-Foot.png)
+:-------------------------:|:-------------------------:
+Figure 16 - Wordcloud of a community. | Figure 17: Wordclouds of a community.
+
+![](/images/wordcloud_Retina-Human eye-Lens (anatomy).png)  |  ![](/images/wordcloud_Clitoris-Vagina-Vulva.png)
+:-------------------------:|:-------------------------:
+Figure 18 - Wordcloud of a community. | Figure 19: Wordclouds of a community.
+
+![](/images/wordcloud_Liver-Kidney-Pancreas.png)  |  
+:-------------------------:|:-------------------------:
+Figure 19 - Wordcloud of a community. | 
 
 CONCLUSION
 
 ### Communities and System similarities and differences
 
-![](/images/wordcloud_Retina-Human eye-Lens (anatomy).png)  |  ![](/images/wordcloud_Scapula-Hand-Humerus.png)
-:-------------------------:|:-------------------------:
-Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
 
 ## References
 [1] https://www.sciencedirect.com/topics/computer-science/community-detection
