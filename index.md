@@ -55,7 +55,7 @@ Let's do some further analysis of the network and return to the representation l
 
 The systems were defined manually according to the Wikipedia source. Using this attributes to color the nodes accordingly, and scaling the nodes according to their respective degrees a more meaningful representation of the network is drawn.
 
-![Image of network with systems](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_forceatlas.png)
+![Image of network with systems](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_systems.png)
 
 Here it can be seen that the network is not actually connected according to the defined systems.
 Rather, as the node colors are quite widespread, it seems that the nodes could be connected according to their respective location in the body.
