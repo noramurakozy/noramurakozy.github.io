@@ -61,8 +61,9 @@ The systems were defined manually according to the Wikipedia source. Using this 
 
 <figure>
   <img src="./images/the_human_body_systems.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 2 - Network of the human body using ForceAtlas. </em> </figcaption>
 </figure>
+
+> Figure 2 - Network of the human body using ForceAtlas.
 
 Here it can be seen that the network is not actually connected according to the defined systems.
 Rather, as the node colors are quite widespread, it seems that the nodes could be connected according to their respective location in the body.
@@ -75,8 +76,9 @@ Now that we are more familiriaze with communitites, let's talk about the communi
 
 <figure>
   <img src="./images/communities_distribution.png" alt="communities" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 3 - Distribution of the networks's communities. It can easily be count the 9 communities.  </em> </figcaption>
 </figure>
+
+> Figure 3 - Distribution of the networks's communities. It can easily be count the 9 communities.
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
 "suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
@@ -85,8 +87,9 @@ This time using the communities to color the nodes, and again scaling the nodes 
 
 <figure>
   <img src="./images/the_human_body_communities.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 4 - The human body network where the nodes are colored by the system they belongs to. </em> </figcaption>
 </figure>
+
+> Figure 4 - The human body network where the nodes are colored by the system they belongs to.
 
 The same colored nodes are very different in this representation compared to that with the systems used for coloring.
 This means that the systems and communities are definitely not the same.
@@ -269,7 +272,7 @@ As in previous points, first we get the list of tokens (words) of each community
 
 ![c1](/images/wordcloud_Pelvis-Sacrum-Hip_bone.png)  |  ![c2](/images/wordcloud_Human_tooth-Ear-Trigeminal_nerve.png)
 :-------------------------:|:-------------------------:
-Figure 12 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 13: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
+> Figure 12 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | > Figure 13: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
 
 <br>
 
