@@ -87,7 +87,7 @@ Now, let's take a look at the over degree distribution.
   <img src="./images/in_degree_distloglog.png" alt="degree" style="width:100%">
 </figure>
 
-> Figure 1 - Out and In degree distribution of the human body network, in linear an logarithm scales.
+> Figure 2 - Out and In degree distribution of the human body network, in linear and logarithm scales.
 
 Interestingly, there are only a few nodes with no or few references to other pages, where it seems to be common to have around eight references to other pages, with some pages having even more references.
 It is more common for pages not to be refered to, which makes sense, but it is still more common to receive (what looks like) 5 references from other pages, which is quite a lot for the average page.
@@ -98,7 +98,7 @@ As a mean of further investigation, the created network distribution can be comp
   <img src="./images/er.png" alt="er_network" style="width:100%">
 </figure>
 
-> Figure 2 - Random network degree distribution, in linear scale.
+> Figure 3 - Random network degree distribution, in linear scale.
 
 The above figure clearly shows that the degrees of a random network (ER) follow a Poisson distribution, therefore most nodes have comparable degrees and nodes with a large number of links are missing. While in a network with a power-law degree distribution, most nodes have only a few links. These numerous small nodes are held together by a few highly connected hubs.
 
