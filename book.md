@@ -57,18 +57,29 @@ And again, these word clouds are very different from those of the anatomical sys
 :-------------------------:|:-------------------------:
 Figure 1: Word cloud of section 1 - Cells, tissues and systems. | Figure 2: Word cloud of section 2 - Embryogenesis.
 
+<br>
 
 ![](/images/section_3.png)  |  ![](/images/section_4.png)
 :-------------------------:|:-------------------------:
 Figure 3: Word cloud of section 3 - Neuroanatomy. | Figure 4: Word cloud of section 4 - Head and neck.
 
+<br>
+
 ![](/images/section_5.png)  |  ![](/images/section_6.png)
 :-------------------------:|:-------------------------:
 Figure 5: Word cloud of section 5 - Back. | Figure 6: Word cloud of section 6 - Pectoral girdle and upper limb.
 
-![](/images/section_7.png)  |  ![](/images/section_8.png) | ![](/images/section_9.png)
-:-------------------------:|:-------------------------:|:-------------------------:
-Figure 7: Word cloud of section 7 - Thorax. | Figure 8: Word cloud of section 8 - Abdomen and pelvis. | Figure 9: Word cloud of section 9 - Pelvic girdle and lower limb.
+<br>
+
+![](/images/section_7.png)  |  ![](/images/section_8.png)
+:-------------------------:|:-------------------------:
+Figure 7: Word cloud of section 7 - Thorax. | Figure 8: Word cloud of section 8 - Abdomen and pelvis.
+
+<br>
+
+![](/images/section_9.png) | <img width=500/>
+:-------------------------:|:-------------------------:
+Figure 9: Word cloud of section 9 - Pelvic girdle and lower limb. | <img width=1000/>
 
 
 ## Chapters
