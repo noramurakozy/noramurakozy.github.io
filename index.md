@@ -403,7 +403,7 @@ It can be seen in the system word clouds that some common anatomical terms like 
 <a id="1">[1]</a> 
 https://en.wikipedia.org/wiki/Degree_distribution
 
-<a id="1">[2]</a> 
+<a id="2">[2]</a> 
 https://www.sciencedirect.com/topics/computer-science/community-detection
 
 
