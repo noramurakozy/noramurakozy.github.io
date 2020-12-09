@@ -42,7 +42,7 @@ For this, and further representations, undirected version of the networks are us
 Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the positions in the network, a basic representation of the network can be made, showing the nodes and edges.
 
 <figure>
-  <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_simple.png" alt="Trulli" style="width:100%">
+  <img src="./images/the_human_body_simple.png" alt="Trulli" style="width:100%">
   <figcaption style="text-align: center" > Figure 1 - Community distribution in the humna body network </figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Let's do some further analysis of the network and return to the representation l
 
 The systems were defined manually according to the Wikipedia source. Using this attributes to color the nodes accordingly, and scaling the nodes according to their respective degrees a more meaningful representation of the network is drawn.
 
-![Image of network with systems](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_systems.png)
+![Image of network with systems](./images/the_human_body_systems.png)
 
 > Figure 2 - Network of the human body using ForceAtlas
 
