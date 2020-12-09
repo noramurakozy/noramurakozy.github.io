@@ -288,7 +288,29 @@ Figure 18 - Wordcloud of a community. | Figure 19: Wordclouds of a community.
 :-------------------------:|:-------------------------:
 Figure 19 - Wordcloud of a community. | 
 
-CONCLUSION
+
+
+With the most unique words in each community, it is possible to get better understanding of what each community contains, and if the title reflects the content.
+
+For the "Pelvis-Sacrum-Hip bone" community, it is found that this community is in fact centered around the hip, pelvis, thigh area with words like: "vastus", "femur" and "gluteal".
+
+Next, the "Human tooth-Ear-Trigeminal nerve" community again supports that this community is centered around the face and senses (except the eyes and brain), with common words like: "tongue", "olfactory" (sense of smell) and "mandibular" (lower jaw).
+
+The common words in "Heart-Lung-Thyroid" community also shows that it has a lot to do with breathing (with lung being dominant), and the chest area with words like: "esophagus", "intercostal", "bronchus" and "rib".
+
+The "Human brain-Cerebellum-Spinal cord" is a bit harder to interpret. It is still thought that this community is about the brain and most connected nervous system, but since a lot of nerves are spread around the communities, left are words like: "pineal", "cerebellar" and "willis", which still supports this claim. Surprisingly, the word "ventricle" is dominant in this community, but it is related to the heart.
+
+The "Scapula-Hand-Humerus" community was thought to be about the arm or shoulder, and this is supported by the word cloud with common words like: "ulnar", "pollicis" and "elbow". Most of the presented words seem to be in the arm or shoulder somewhere.
+
+Next up is the "Human skin-Tendon-Foot", which was thought to be a leg, and that "human skin" just happens to be here, as it was hard to place in a certain community. Words like: "tibial", "plantar" and "metatarsal" supports that the community is about the leg and foot.
+
+The "Retina-Human eye-Lens (anatomy)" community the words are quite clearly all about the eye, e.g. "iris", "ciliary", "optic".
+
+The "Clitoris-Vagina-Vulva" community has nicely collected everything about the male and female reproductive systems, and it is quite clear and cut.
+
+Lastly, the "Liver-Kidney-Pancreas" community is also showing to be about the 
+
+This means that it can be concluded that the communities (and thus Wikipedia links) are mostly based on the organs placement in the body more than the anatomical systems that they belong to.
 
 ### Communities and System similarities and differences
 
