@@ -258,7 +258,7 @@ In this way we can get the TF-IDF values for all the systems and draw the follow
   <figcaption style="text-align: center" > <em> Figure 11 - Wordclouds for the urinary system. </em> </figcaption>
 </figure>
 
-CONCLUSION
+It is already known how the systems are different, and the resulting words in each word cloud is quite predictable, but it is still interesting to compare the systems and communities.
 
 ### Communities
 
@@ -320,6 +320,9 @@ This means that it can be concluded that the communities (and thus Wikipedia lin
 
 ### Communities and System similarities and differences
 
+It can be seen in the above word clouds that some common anatomical terms like "artery" in the circulatory system, "nucleus" in the nervous system, and "tendon" in the muscular system are now more present in the word clouds, meaning that these words were more spread out between the communities before, again supporting the claim that the communites mostly do not describe the systems.
+
+Another interesting result is that there were 9 communities and 9 systems, which also makes them easier to compare.
 
 ## References
 [1] https://www.sciencedirect.com/topics/computer-science/community-detection
