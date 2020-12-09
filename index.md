@@ -69,7 +69,7 @@ Now that we are more familiriaze with communitites, let's talk about the communi
   <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png" alt="Trulli" style="width:100%">
   <figcaption style="text-align: center" > Figure 1 - Community distribution in the humna body network </figcaption>
 </figure>
-
+<br>
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
 "suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
 
