@@ -82,7 +82,6 @@ Let's also check the nodes with the most degrees in general (using an undirected
 The most connected node in our network is the Artery, which plays an important role in the human body, because it's a blood vessel that takes blood away from the heart to one or more parts of the body, so it makes sense that this is the most referred node in the system. The second is the Human brain, which we expected to have among the most connected nodes. The third is the Pelvis, most probably because we have a lot vital organs in the pelvis area. The last 2 is the Facial nerve and the Vein, which play a very important role in our body as well.
 
 Now, let's take a look at the over degree distribution.
-
 <figure>
   <img src="./images/in_degree_distloglog.png" alt="degree" style="width:100%">
 </figure>
