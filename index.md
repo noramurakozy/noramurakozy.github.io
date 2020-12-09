@@ -196,21 +196,16 @@ For this, four wordclouds have been constructed, two using the most used words i
 
 First, we have the wordclouds for the Wikipedia pages and the textbook when using only Term Frequency.
 
-<figure>
-  <img src="./images/wordcloud_wikipedia_book_tf.png" alt="wd_tf" style="width:100%">
-  <figcaption style="text-align: center" > 
-    <em> 
-      Figure 5 - Wordclouds that represents the most frequent words for the Wikipedia Pages and Gray's Anatomy book respectively. 
-    </em> 
-  </figcaption>
-</figure>
 
+![w1](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![b1](/images/wordcloud_gray_anatomy_book_tf.png)
+:-------------------------:|:-------------------------:
+Figure 5 - Wordclouds of the most frequent words for the Wikipedia Pages. | Figure 6: Wordclouds of the most frequent words for Gray's Anatomy book.
 
 Next we see the wordclouds for both when using Term Frequency- Inverse Document Frequency.
 
 
 
-![s1](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![s2](/images/wordcloud_gray_anatomy_book_tfidf.png)
+![w2](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![b2](/images/wordcloud_gray_anatomy_book_tfidf.png)
 :-------------------------:|:-------------------------:
 Figure 7 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 8: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
 
