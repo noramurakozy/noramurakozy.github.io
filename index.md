@@ -268,31 +268,31 @@ As in previous points, first we get the list of tokens (words) of each community
 
 ![c1](/images/wordcloud_Pelvis-Sacrum-Hip_bone.png)  |  ![c2](/images/wordcloud_Human tooth-Ear-Trigeminal_nerve.png)
 :-------------------------:|:-------------------------:
-Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
+Figure 12 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 13: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
 
 <br>
 
 ![c3](/images/wordcloud_Heart-Lung-Thyroid.png)  |  ![c4](/images/wordcloud_Human_brain-Cerebellum-Spinal_cord.png)
 :-------------------------:|:-------------------------:
-Figure 14 - Wordcloud of a community. | Figure 15: Wordclouds of a community.
+Figure 14 - Wordcloud of the Heart-Lung-Thyroid community. | Figure 15: Wordclouds of the Human_brain-Cerebellum-Spinal_cord community.
 
 <br>
 
 ![c5](/images/wordcloud_Scapula-Hand-Humerus.png)  |  ![c6](/images/wordcloud_Human_skin-Tendon-Foot.png)
 :-------------------------:|:-------------------------:
-Figure 16 - Wordcloud of a community. | Figure 17: Wordclouds of a community.
+Figure 16 - Wordcloud of the Scapula-Hand-Humerus community. | Figure 17: Wordclouds of the Human_skin-Tendon-Foot community.
 
 <br>
 
 ![c7](/images/wordcloud_Retina-Human_eye-Lens_(anatomy).png)  |  ![c8](/images/wordcloud_Clitoris-Vagina-Vulva.png)
 :-------------------------:|:-------------------------:
-Figure 18 - Wordcloud of a community. | Figure 19: Wordclouds of a community.
+Figure 18 - Wordcloud of the Retina-Human_eye-Lens community. | Figure 19: Wordclouds of the Clitoris-Vagina-Vulva community.
 
 <br>
 
 ![c9](/images/wordcloud_Liver-Kidney-Pancreas.png)  |  
-:-------------------------:|:-------------------------:
-Figure 19 - Wordcloud of a community. | 
+:-------------------------:|
+Figure 19 - Wordcloud of the Liver-Kidney-Pancreas community. | 
 
 <br>
 
