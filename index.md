@@ -272,7 +272,7 @@ As in previous points, first we get the list of tokens (words) of each community
 
 ![c1](/images/wordcloud_Pelvis-Sacrum-Hip_bone.png)  |  ![c2](/images/wordcloud_Human_tooth-Ear-Trigeminal_nerve.png)
 :-------------------------:|:-------------------------:
-> Figure 12 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. |> Figure 13: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
+Figure 12 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 13: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
 
 <br>
 
