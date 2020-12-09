@@ -67,7 +67,7 @@ Now that we are more familiriaze with communitites, let's talk about the communi
 
 ![Communities Distribution](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png)
 
-<div style="text-align:center">
+<div style="text-align:left">
   <figure >
     <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png" alt="Trulli" style="width:100%">
     <figcaption>Fig.1 - Distribution of the communities in the human body network. </figcaption>
