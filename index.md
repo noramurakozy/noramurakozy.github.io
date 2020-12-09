@@ -332,7 +332,7 @@ It can be seen in the system word clouds that some common anatomical terms like 
 ## Conclusions
 
 ## References
-[1](https://www.sciencedirect.com/topics/computer-science/community-detection)
+[1] (https://www.sciencedirect.com/topics/computer-science/community-detection)
 
 
 
