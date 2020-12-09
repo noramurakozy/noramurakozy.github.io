@@ -268,7 +268,7 @@ For this, four wordclouds have been constructed, two using the most used words i
 First, we have the wordclouds for the Wikipedia pages and the textbook when using only Term Frequency.
 
 
-![w1](/images/wordcloud_wikipedia_pages_tf.png)  |  ![b1](/images/wordcloud_gray_anatomy_book_tf.png)
+![w1](/images/most_common_wikipedia.png)  |  ![b1](/images/most_common_book.png)
 :-------------------------:|:-------------------------:
 Figure 7: Wordclouds of the most frequent words for the Wikipedia Pages. | Figure 8: Wordclouds of the most frequent words for Gray's Anatomy book.
 
@@ -277,7 +277,7 @@ e.g. "image", "text", and "page". On the right, the textbook also contains mainl
 
 Next we see the wordclouds for both when using Term Frequency- Inverse Document Frequency.
 
-![w2](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![b2](/images/wordcloud_gray_anatomy_book_tfidf.png)
+![w2](/images/tf_idf_wikipedia.png)  |  ![b2](/images/tf_idf_book.png)
 :-------------------------:|:-------------------------:
 Figure 9: Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 10: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
 
@@ -304,33 +304,33 @@ And with them we create the dictionary that will contains each system with its c
 
 In this way we can get the TF-IDF values for all the systems and draw the following wordclouds:
 
-![s1](/images/wordcloud_Circulatory_system.png)  |  ![s2](/images/wordcloud_Digestive_system.png)
+![s1](/images/system_1.png)  |  ![s2](/images/system_2.png)
 :-------------------------:|:-------------------------:
 Figure 11: Circulatory system wordcloud. | Figure 12: Digestive system wordcloud.
 
 <br>
 
-![s3](/images/wordcloud_Endocrine_system.png)  |  ![s4](/images/wordcloud_Integumentary_system.png)
+![s3](/images/system_3.png)  |  ![s4](/images/system_4.png)
 :-------------------------:|:-------------------------:
 Figure 13: Endocrine system wordcloud. | Figure 14: Integumentary system wordcloud.
 
 <br>
 
-![s5](/images/wordcloud_Muscular_system.png)  |  ![s6](/images/wordcloud_Nervous_system.png)
+![s5](/images/system_5.png)  |  ![s6](/images/system_6.png)
 :-------------------------:|:-------------------------:
 Figure 15: Muscular system wordcloud. | Figure 16: Nervous system wordcloud.
 
 <br>
 
-![s7](/images/wordcloud_Reproductive_organs.png)  |  ![s8](/images/wordcloud_Respiratory_system.png)
+![s7](/images/system_7.png)  |  ![s8](/images/system_8.png)
 :-------------------------:|:-------------------------:
 Figure 17: Reproductive organs wordcloud. | Figure 18: Respiratory system wordclouds.
 
 <br>
 
-![s9](/images/wordcloud_Urinary_system.png)  |  
-:-------------------------:|
-Figure 19: Urinary system wordcloud. | 
+![s9](/images/system_9.png)  |  <img width=500/>
+:-------------------------:|:-------------------------:
+Figure 19: Urinary system wordcloud. | <img width=1130/>
 
 <br>
 
