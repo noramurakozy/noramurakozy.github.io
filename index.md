@@ -66,10 +66,13 @@ To study why the nodes are connected in a specific way we are going to find the 
 Now that we are more familiriaze with communitites, let's talk about the communities found on the human body graph. We got 9 communities, so we will continue the analisys with all of them as all of them are formed by a significant number of nodes. Here we present a distribution of the mentioned communities to show the number of communities and the amount of nodes in each one:
 
 ![Communities Distribution](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png)
-<figure>
-  <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png" alt="Trulli" style="width:100%">
-  <figcaption>                              Fig.1 - Distribution of the communities in the human body network. </figcaption>
-</figure>
+
+<div style="align: left; text-align:center;">
+  <figure >
+    <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png" alt="Trulli" style="width:100%">
+    <figcaption>Fig.1 - Distribution of the communities in the human body network. </figcaption>
+  </figure>
+</div>  
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
 "suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
