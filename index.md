@@ -43,6 +43,8 @@ Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the 
 
 ![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_simple.png)
 
+> Figure 1 - Simple drawing version of the network of the human body
+
 It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
 Let's do some further analysis of the network and return to the representation later.
 
@@ -57,6 +59,8 @@ The systems were defined manually according to the Wikipedia source. Using this 
 
 ![Image of network with systems](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_systems.png)
 
+> Figure 2 - Network of the human body using ForceAtlas
+
 Here it can be seen that the network is not actually connected according to the defined systems.
 Rather, as the node colors are quite widespread, it seems that the nodes could be connected according to their respective location in the body.
 
@@ -68,7 +72,7 @@ Now that we are more familiriaze with communitites, let's talk about the communi
 ![Communities distribution](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/communities_distribution.png)
 
 
-> Figure 1 - Community distribution in the human body network 
+> Figure 3 - Community distribution in the human body network 
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
 "suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
@@ -76,6 +80,8 @@ When calculating the modularity for the partitions, we get a modularity over 0.5
 This time using the communities to color the nodes, and again scaling the nodes according to their respective degrees, a representation of the community partition can be made.
 
 ![Image of network with communities](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_communities.png)
+
+> Figure 4 - The human body network where the nodes are colored by the system they belongs to
 
 The same colored nodes are very different in this representation compared to that with the systems used for coloring.
 This means that the systems and communities are definitely not the same.
