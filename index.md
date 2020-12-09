@@ -50,9 +50,57 @@ Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the 
 It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
 Let's do some further analysis of the network and return to the representation later.
 
-### Degree distribution
+### Connectivity
 
-The degree of a node in a network is the number of connections it has to other nodes and the degree distribution is the probability distribution of these degrees over the whole network.
+As defined by [1]: "The degree of a node in a network is the number of connections it has to other nodes, and the degree distribution is the probability distribution of these degrees over the whole network", we will study first the connectivity of the network. As this is a directed graph, we can easily check the most connected nodes, and the connections coming in and going out of each node. 
+
+The pages with most references to other anatomy pages:
+1.	Human brain with 75 degrees
+2.	Sacral plexus with 61 degrees
+3.	Cranial nerves with 51 degrees
+4.	Hand with 44 degrees
+5.	Pelvis with 42 degrees
+
+Looking at the pages with most out degree, the human brain, hand and pelvis are all well known organs, with quite a few things going on, while sacral plexus contains a list of nerves, and cranial nerves talks about a lot of nerves.
+
+The pages with most references from other anatomy pages:
+1.	Artery with 101 degrees
+2.	Facial nerve with 76 degrees
+3.	Vein with 64 degrees
+4.	Vagus nerve with 61 degrees
+5.	Pelvis with 57 degrees
+
+Looking at the pages with most in degree, it is no surprise that artery, vein and nerves are listed, as they are essential in many parts of the body. And, again, the pelvis area has a lot going on around it.
+
+Let's also check the nodes with the most degrees in general (using an undirected version of the network). 
+1.	**Artery with 106 degrees**
+2.	Human brain with 83 degrees
+3.	Pelvis with 82 degrees
+4.	Facial nerve with 81 degrees
+5.	Vein with 74 degrees
+
+The most connected node in our network is the Artery, which plays an important role in the human body, because it's a blood vessel that takes blood away from the heart to one or more parts of the body, so it makes sense that this is the most referred node in the system. The second is the Human brain, which we expected to have among the most connected nodes. The third is the Pelvis, most probably because we have a lot vital organs in the pelvis area. The last 2 is the Facial nerve and the Vein, which play a very important role in our body as well.
+
+Now, let's take a look at the over degree distribution.
+
+<figure>
+  <img src="./images/in_degree_distloglog.png" alt="degree" style="width:100%">
+</figure>
+
+> Figure 1 - Out and In degree distribution of the human body network, in linear an logarithm scales.
+
+Interestingly, there are only a few nodes with no or few references to other pages, where it seems to be common to have around eight references to other pages, with some pages having even more references.
+It is more common for pages not to be refered to, which makes sense, but it is still more common to receive (what looks like) 5 references from other pages, which is quite a lot for the average page.
+
+As a mean of further investigation, the created network distribution can be compared to that of a random network with the same number of nodes and connectivity.
+
+<figure>
+  <img src="./images/er.png" alt="er_network" style="width:100%">
+</figure>
+
+> Figure 2 - Random network degree distribution, in linear scale.
+
+The above figure clearly shows that the degrees of a random network (ER) follow a Poisson distribution, therefore most nodes have comparable degrees and nodes with a large number of links are missing. While in a network with a power-law degree distribution, most nodes have only a few links. These numerous small nodes are held together by a few highly connected hubs.
 
 ### Centrality
 
@@ -81,7 +129,7 @@ Rather, as the node colors are quite widespread, it seems that the nodes could b
 
 ### Communities
 
-To study why the nodes are connected in a specific way we are going to find the subnetworks in which the nodes are separated based on the number on links between them. For this we use a community detection method: the [Python Louvain-algorithm implementation](https://perso.crans.org/aynaud/communities/). The quality of the communities detected is measured by the modularity parameter. As said in [1], "Modularity is a property of how one decides to partition a network: networks that are not partitioned and those that place every node in its own community will both have modularity equal to zero". With community detection the goal is to find communities that maximize modularity.
+To study why the nodes are connected in a specific way we are going to find the subnetworks in which the nodes are separated based on the number on links between them. For this we use a community detection method: the [Python Louvain-algorithm implementation](https://perso.crans.org/aynaud/communities/). The quality of the communities detected is measured by the modularity parameter. As said in [2], "Modularity is a property of how one decides to partition a network: networks that are not partitioned and those that place every node in its own community will both have modularity equal to zero". With community detection the goal is to find communities that maximize modularity.
 
 Now that we are more familiriaze with communitites, let's talk about the communities found on the human body graph. We got 9 communities, so we will continue the analisys with all of them as all of them are formed by a significant number of nodes. Here we present a distribution of the mentioned communities to show the number of communities and the amount of nodes in each one:
 
@@ -341,7 +389,8 @@ It can be seen in the system word clouds that some common anatomical terms like 
 ## Conclusions
 
 ## References
-[1] (https://www.sciencedirect.com/topics/computer-science/community-detection)
+[1] https://en.wikipedia.org/wiki/Degree_distribution
+[2] https://www.sciencedirect.com/topics/computer-science/community-detection
 
 
 
