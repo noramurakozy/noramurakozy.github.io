@@ -52,6 +52,8 @@ Let's do some further analysis of the network and return to the representation l
 
 ### Degree distribution
 
+The degree of a node in a network is the number of connections it has to other nodes and the degree distribution is the probability distribution of these degrees over the whole network.
+
 ### Centrality
 
 
@@ -330,7 +332,7 @@ It can be seen in the system word clouds that some common anatomical terms like 
 ## Conclusions
 
 ## References
-[1] https://www.sciencedirect.com/topics/computer-science/community-detection
+[1](https://www.sciencedirect.com/topics/computer-science/community-detection)
 
 
 
