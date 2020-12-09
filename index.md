@@ -262,9 +262,9 @@ CONCLUSION
 
 ### Communities
 
-INTRODUCTION
+In this section we will apply TF-IDF to the communities as well, this will give us the common words within the communities that makes the community unique to the others. It is also interesting to see if the communities can be compared to the defined systems, or if they are completely different, this will be discussed in the next section.
 
-IMAGES
+As in previous points, first we get the list of tokens (words) of each community, calculate the TF-IDF values and then draw the wordclouds for each community:
 
 ![c1](/images/wordcloud_Pelvis-Sacrum-Hip bone.png)  |  ![c2](/images/wordcloud_Human tooth-Ear-Trigeminal nerve.png)
 :-------------------------:|:-------------------------:
