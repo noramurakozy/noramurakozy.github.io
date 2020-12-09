@@ -270,7 +270,7 @@ CONCLUSION
 
 ![](/images/wordcloud_Retina-Human eye-Lens (anatomy).png)  |  ![](/images/wordcloud_Scapula-Hand-Humerus.png)
 :-------------------------:|:-------------------------:
-> Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
+Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
 
 ## References
 [1] https://www.sciencedirect.com/topics/computer-science/community-detection
