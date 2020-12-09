@@ -270,7 +270,7 @@ First, we have the wordclouds for the Wikipedia pages and the textbook when usin
 
 ![w1](/images/wordcloud_wikipedia_pages_tf.png)  |  ![b1](/images/wordcloud_gray_anatomy_book_tf.png)
 :-------------------------:|:-------------------------:
-Figure 7 - Wordclouds of the most frequent words for the Wikipedia Pages. | Figure 6: Wordclouds of the most frequent words for Gray's Anatomy book.
+Figure 7 - Wordclouds of the most frequent words for the Wikipedia Pages. | Figure 8: Wordclouds of the most frequent words for Gray's Anatomy book.
 
 On the left, it can be seen that the frequent words on Wikipedia are mostly anotomical, but there are also some "Wikipedia words" that have snuck in,
 e.g. "image", "text", and "page". On the right, the textbook also contains mainly anatomical words, but a few common words that do not mean much for the text, and was not filtered out as stopwords, are still present, e.g. "may" and "usually".
@@ -279,7 +279,7 @@ Next we see the wordclouds for both when using Term Frequency- Inverse Document 
 
 ![w2](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![b2](/images/wordcloud_gray_anatomy_book_tfidf.png)
 :-------------------------:|:-------------------------:
-Figure 8 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 8: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
+Figure 9 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 10: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
 
 
 Now that the unique words of both texts have been filtered, the results are quite interesting. It can be seen that many of the words are still medical terms. "fiber" is, for example, mentioned more on Wikipedia than in the textbook. This is because the textbook usually referes to "fibres" a lot more. The opposite can be said about neurone, which Wikipedia does not really use, but the textbook does.
@@ -306,31 +306,31 @@ In this way we can get the TF-IDF values for all the systems and draw the follow
 
 ![s1](/images/wordcloud_Circulatory_system.png)  |  ![s2](/images/wordcloud_Digestive_system.png)
 :-------------------------:|:-------------------------:
-Figure 9 - Circulatory system wordcloud. | Figure 10: Digestive system wordcloud.
+Figure 11 - Circulatory system wordcloud. | Figure 12: Digestive system wordcloud.
 
 <br>
 
 ![s3](/images/wordcloud_Endocrine_system.png)  |  ![s4](/images/wordcloud_Integumentary_system.png)
 :-------------------------:|:-------------------------:
-Figure 11 - Endocrine system wordcloud. | Figure 12: Integumentary system wordcloud.
+Figure 13 - Endocrine system wordcloud. | Figure 14: Integumentary system wordcloud.
 
 <br>
 
 ![s5](/images/wordcloud_Muscular_system.png)  |  ![s6](/images/wordcloud_Nervous_system.png)
 :-------------------------:|:-------------------------:
-Figure 13 - Muscular system wordcloud. | Figure 14: Nervous system wordcloud.
+Figure 15 - Muscular system wordcloud. | Figure 16: Nervous system wordcloud.
 
 <br>
 
 ![s7](/images/wordcloud_Reproductive_organs.png)  |  ![s8](/images/wordcloud_Respiratory_system.png)
 :-------------------------:|:-------------------------:
-Figure 15 - Reproductive organs wordcloud. | Figure 16: Respiratory system wordclouds.
+Figure 17 - Reproductive organs wordcloud. | Figure 18: Respiratory system wordclouds.
 
 <br>
 
 ![s9](/images/wordcloud_Urinary_system.png)  |  
 :-------------------------:|
-Figure 17 - Urinary system wordcloud. | 
+Figure 19 - Urinary system wordcloud. | 
 
 <br>
 
@@ -345,31 +345,31 @@ As in previous points, first we get the list of tokens (words) of each community
 
 ![c1](/images/community_1.png)  |  ![c2](/images/community_2.png)
 :-------------------------:|:-------------------------:
-Figure 18 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 19: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
+Figure 20 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 21: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
 
 <br>
 
 ![c3](/images/community_3.png)  |  ![c4](/images/community_4.png)
 :-------------------------:|:-------------------------:
-Figure 20 - Wordcloud of the Heart-Lung-Thyroid community. | Figure 21: Wordclouds of the Human_brain-Cerebellum-Spinal_cord community.
+Figure 22 - Wordcloud of the Heart-Lung-Thyroid community. | Figure 23: Wordclouds of the Human_brain-Cerebellum-Spinal_cord community.
 
 <br>
 
 ![c5](/images/community_5.png)  |  ![c6](/images/community_6.png)
 :-------------------------:|:-------------------------:
-Figure 22 - Wordcloud of the Scapula-Hand-Humerus community. | Figure 23: Wordclouds of the Human_skin-Tendon-Foot community.
+Figure 24 - Wordcloud of the Scapula-Hand-Humerus community. | Figure 25: Wordclouds of the Human_skin-Tendon-Foot community.
 
 <br>
 
 ![c7](/images/community_7.png)  |  ![c8](/images/community_8.png)
 :-------------------------:|:-------------------------:
-Figure 24 - Wordcloud of the Retina-Human_eye-Lens community. | Figure 25: Wordclouds of the Clitoris-Vagina-Vulva community.
+Figure 26 - Wordcloud of the Retina-Human_eye-Lens community. | Figure 27: Wordclouds of the Clitoris-Vagina-Vulva community.
 
 <br>
 
 ![c9](/images/community_9.png)  |  <img width=500/>
 :-------------------------:|:-------------------------:
-Figure 26 - Wordcloud of the Liver-Kidney-Pancreas community. | <img width=1130/>
+Figure 28 - Wordcloud of the Liver-Kidney-Pancreas community. | <img width=1130/>
 
 <br>
 
