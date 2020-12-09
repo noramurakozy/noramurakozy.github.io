@@ -43,8 +43,9 @@ Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the 
 
 <figure>
   <img src="./images/the_human_body_simple.png" alt="fi1" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 1 - Network of the human body, simple version. </em> </figcaption>
 </figure>
+
+> Figure 1 - Network of the human body, simple version.
 
 It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
 Let's do some further analysis of the network and return to the representation later.
