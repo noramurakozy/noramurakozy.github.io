@@ -238,22 +238,22 @@ Now we can get the TF-IDF values for all the system to draw the following wordcl
 
 <figure>
   <img src="./images/wordcloud_muscular_nervous.png" alt="tf_idf2" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the muscular and the nervous systems. </em> </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 8 - Wordclouds for the muscular and the nervous systems. </em> </figcaption>
 </figure>
 
 <figure>
   <img src="./images/wordcloud_endocrine_integumentary.png" alt="tf_idf3" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the endocrine and the integumentary systems. </em> </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 9 - Wordclouds for the endocrine and the integumentary systems. </em> </figcaption>
 </figure>
 
 <figure>
   <img src="./images/wordcloud_reproductive_respiratory.png" alt="tf_idf4" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the reproductive and the respiratory systems. </em> </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 10 - Wordclouds for the reproductive and the respiratory systems. </em> </figcaption>
 </figure>
 
 <figure>
-  <img src="./images/wordcloud_Urinary_system.png" alt="tf_idf5" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the urinary. </em> </figcaption>
+  <img src="./images/wordcloud_Urinary_system.png" alt="tf_idf5" style="width:60%">
+  <figcaption style="text-align: center" > <em> Figure 11 - Wordclouds for the urinary. </em> </figcaption>
 </figure>
 
 CONCLUSION
