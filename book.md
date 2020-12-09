@@ -100,7 +100,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 6	|	Smooth muscle and the cardiovascular and lymphatic systems	|	15078	|	692	|	21.79	|	2593	|	17.20%	|	1970	|	13.07%	|	130	|	0.86%	|	5	|	0.03%	|	6170	|	40.92%	|	57	|	5.31
 7	|	Skin and its appendages	|	17862	|	816	|	21.89	|	3098	|	17.34%	|	1996	|	11.17%	|	156	|	0.87%	|	13	|	0.07%	|	7371	|	41.27%	|	54	|	5.28
 
-Table 3: Text analysis of the chapters in Section 1: Cells, tissues and systems.
+> Table 3: Text analysis of the chapters in Section 1: Cells, tissues and systems.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -113,7 +113,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 14	|	Pre- and postnatal development	|	5942	|	237	|	25.07	|	1537	|	25.87%	|	582	|	9.79%	|	25	|	0.42%	|	3	|	0.05%	|	2522	|	42.44%	|	56	|	5.37
 15	|	Development of the limbs	|	5088	|	196	|	25.96	|	1264	|	24.84%	|	608	|	11.95%	|	28	|	0.55%	|	0	|	0.00%	|	2087	|	41.02%	|	58	|	5.31
 
-Table 4: Text analysis of the chapters in Section 2: Embryogenesis.
+> Table 4: Text analysis of the chapters in Section 2: Embryogenesis.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -128,7 +128,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 24	|	Basal ganglia	|	5361	|	236	|	22.72	|	1274	|	23.76%	|	725	|	13.52%	|	59	|	1.10%	|	4	|	0.07%	|	2238	|	41.75%	|	64	|	5.21
 25	|	Cerebral hemispheres	|	21858	|	913	|	23.94	|	2487	|	11.38%	|	2687	|	12.29%	|	236	|	1.08%	|	9	|	0.04%	|	8766	|	40.10%	|	60	|	5.25
 
-Table 5: Text analysis of the chapters in Section 3: Neuroanatomy.
+> Table 5: Text analysis of the chapters in Section 3: Neuroanatomy.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -150,7 +150,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 41	|	Orbit and accessory visual apparatus	|	16769	|	710	|	23.62	|	2239	|	13.35%	|	1430	|	8.53%	|	87	|	0.52%	|	1	|	0.01%	|	7114	|	42.42%	|	56	|	5.23
 42	|	Eye	|	15539	|	653	|	23.80	|	2477	|	15.94%	|	1467	|	9.44%	|	73	|	0.47%	|	0	|	0.00%	|	6485	|	41.73%	|	56	|	5.27
 
-Table 6: Text analysis of the chapters in Section 4: Head and neck.
+> Table 6: Text analysis of the chapters in Section 4: Head and neck.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -158,7 +158,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 44	|	Development of the back	|	6311	|	286	|	22.07	|	1374	|	21.77%	|	735	|	11.65%	|	46	|	0.73%	|	1	|	0.02%	|	2672	|	42.34%	|	55	|	5.28
 45	|	Spinal cord and spinal nerves: gross anatomy	|	9647	|	400	|	24.12	|	1589	|	16.47%	|	731	|	7.58%	|	40	|	0.41%	|	0	|	0.00%	|	3956	|	41.01%	|	53	|	5.20
 
-Table 7: Text analysis of the chapters in Section 5: Back.
+> Table 7: Text analysis of the chapters in Section 5: Back.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -168,7 +168,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 49	|	Elbow and forearm	|	18609	|	872	|	21.34	|	1490	|	8.01%	|	1417	|	7.61%	|	88	|	0.47%	|	0	|	0.00%	|	7901	|	42.46%	|	52	|	5.20
 50	|	Wrist and hand	|	23364	|	1066	|	21.92	|	2093	|	8.96%	|	1920	|	8.22%	|	213	|	0.91%	|	6	|	0.03%	|	9939	|	42.54%	|	51	|	5.24
 
-Table 8: Text analysis of the chapters in Section 6: Pectoral girdle and upper limb.
+> Table 8: Text analysis of the chapters in Section 6: Pectoral girdle and upper limb.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -181,7 +181,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 57	|	Heart	|	20555	|	839	|	24.50	|	2551	|	12.41%	|	2187	|	10.64%	|	253	|	1.23%	|	4	|	0.02%	|	8557	|	41.63%	|	58	|	5.24
 58	|	Great vessels	|	4911	|	217	|	22.63	|	1013	|	20.63%	|	514	|	10.47%	|	74	|	1.51%	|	2	|	0.04%	|	1950	|	39.71%	|	55	|	5.21
 
-Table 9: Text analysis of the chapters in Section 7: Thorax.
+> Table 9: Text analysis of the chapters in Section 7: Thorax.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -205,7 +205,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 76	|	Male reproductive system	|	8328	|	377	|	22.09	|	1691	|	20.30%	|	1006	|	12.08%	|	59	|	0.71%	|	0	|	0.00%	|	3362	|	40.37%	|	56	|	5.24
 77	|	Female reproductive system	|	13836	|	641	|	21.59	|	2299	|	16.62%	|	1308	|	9.45%	|	59	|	0.43%	|	6	|	0.04%	|	5937	|	42.91%	|	54	|	5.25
 
-Table 10: Text analysis of the chapters in Section 8: Abdomen and pelvis.
+> Table 10: Text analysis of the chapters in Section 8: Abdomen and pelvis.
 
 Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of text	|	Long words (10+)	|	% of text	|	Long words (15+)	|	% of text	|	Long words (20+)	|	% of text	|	Stopwords	|	% of text	|	Lix score	|	Sentiment score
 ---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---
@@ -217,7 +217,7 @@ Chapter	|	Name	|	Words	|	Sentences	|	Words pr. sentence	|	Unique words	|	% of te
 83	|	Leg	|	16058	|	709	|	22.65	|	1652	|	10.29%	|	1178	|	7.34%	|	54	|	0.34%	|	2	|	0.01%	|	6843	|	42.61%	|	54	|	5.21
 84	|	Ankle and foot	|	28830	|	1272	|	22.67	|	2505	|	8.69%	|	2523	|	8.75%	|	205	|	0.71%	|	16	|	0.06%	|	12131	|	42.08%	|	55	|	5.22
 
-Table 11: Text analysis of the chapters in Section 9: Pelvic girdle and lower limb.
+> Table 11: Text analysis of the chapters in Section 9: Pelvic girdle and lower limb.
 
 ### Most common words
 
