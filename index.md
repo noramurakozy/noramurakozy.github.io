@@ -174,16 +174,30 @@ Further analyses have been done on the [Wikipedia pages](https://noramurakozy.gi
 ### Most common words
 
 The texts were found to be equally readable, but let's see if the same words are being used on the Wikipedia pages and in the textbook.
-For this, four wordclouds have benn constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using TF-IDF to find these words.
+For this, four wordclouds have been constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using TF-IDF to find these words.
 
-So firt we have the wordcloud for the Wikipedia pages and the textbook when using Term Frequency.
+First, we have the wordcloud for the Wikipedia pages and the textbook when using Term Frequency.
 ![Wikipedia book_tf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_book_tf.png)
 
 Next we see the wordclouds for both but using Term Frequency- Inverse Document Frequency.
 ![Wikipedia book_tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_book_tfidf.png)
 
 ### Systems
+The nodes in our network have an attribute called "System", which represent the system in which the node belongs to. We also want to create the wordclouds for these systems, which are 9 in total, to compare with the communities one which are going to be create later. We repeat the same operations as before with the TF-IDF wordclouds, so we get the unique words of each system in our network. 
 
+Before creating the wordclouds, we get the names of the systems:
+ - 'Circulatory system' 
+ - 'Digestive system' 
+ - 'Endocrine system'
+ - 'Integumentary system'
+ - 'Muscular system' 
+ - 'Nervous system'
+ - 'Reproductive organs' 
+ - 'Respiratory system' 
+ - 'Urinary system' 
+And with them we create the dictionary that will contains each systems with its corresponding txt files. 
+
+Now we can get the TF-IDF values for all the system to draw the following wordclouds:
 ![circulatory_digestive](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_circulatory_digestive.png)
 ![muscular_nervous](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_muscular_nervous.png)
 ![endocrine_integumentary](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_endocrine_integumentary.png)
