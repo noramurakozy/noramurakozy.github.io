@@ -53,43 +53,23 @@ Word clouds were constructed for each section for an overview of the most unique
 Though the results are not surprising and makes sense for the section titles, it is still interesting that there again are 9 sections compared to the 9 systems and 9 communities.
 And again, these word clouds are very different from those of the anatomical systems and communities, meaning that the book is structured differently than these.
 
-Word clouds were quickly constructed for an overview of the most 
+![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section1.png)  |  ![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section2.png)
+:-------------------------:|:-------------------------:
+Figure 1: Word cloud of section 1 - Cells, tissues and systems. | Figure 2: Word cloud of section 2 - Embryogenesis.
 
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section1.png)
 
-> Figure 1: Word cloud of section 1: Cells, tissues and systems.
+![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section3.png)  |  ![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section4.png)
+:-------------------------:|:-------------------------:
+Figure 3: Word cloud of section 3 - Neuroanatomy. | Figure 4: Word cloud of section 4 - Head and neck.
 
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section2.png)
+![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section5.png)  |  ![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section6.png)
+:-------------------------:|:-------------------------:
+Figure 5: Word cloud of section 5 - Back. | Figure 6: Word cloud of section 6 - Pectoral girdle and upper limb.
 
-> Figure 2: Word cloud of section 2: Embryogenesis.
+![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section7.png)  |  ![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section8.png) | ![](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section9.png)
+:-------------------------:|:-------------------------:|:-------------------------:
+Figure 7: Word cloud of section 7 - Thorax. | Figure 8: Word cloud of section 8 - Abdomen and pelvis. | Figure 9: Word cloud of section 9 - Pelvic girdle and lower limb.
 
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section3.png)
-
-> Figure 3: Word cloud of section 3: Neuroanatomy.
-
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section4.png)
-
-> Figure 4: Word cloud of section 4: Head and neck.
-
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section5.png)
-
-> Figure 5: Word cloud of section 5: Back.
-
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section6.png)
-
-> Figure 6: Word cloud of section 6: Pectoral girdle and upper limb.
-
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section7.png)
-
-> Figure 7: Word cloud of section 7: Thorax.
-
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section8.png)
-
-> Figure 8: Word cloud of section 8: Abdomen and pelvis.
-
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/Section9.png)
-
-> Figure 9: Word cloud of section 9: Pelvic girdle and lower limb.
 
 ## Chapters
 
