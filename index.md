@@ -16,11 +16,11 @@ A data file was manually created, containing the unique names of internal body p
 
 The resulting .csv data-file can be found [here](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/data/anatomy.csv).
 
-Additionaly, a cleaned version of the chapters of "Gray's Anatomy (41st edition)" (2015) is used for comparing the Wikipedia text to one of the biggest collections of knowledge of the human anatomy.
+Additionaly, an own cleaned version of the chapters of "Gray's Anatomy (41st edition)" (2015) is used for comparing the Wikipedia text to one of the biggest collections of knowledge of the human anatomy.
 
 ### Usage of "Gray's Anatomy"
 
-Gray's Anatomy was chosen for comparison, as it describes all of human anatomy, and has continously been developed over many years. The 1st edition was released back in 1858, and is not on its 42nd release as of October, 2020, though only the prior version will be used for analysis in this projct.
+Gray's Anatomy was chosen for comparison, as it describes all of human anatomy, and has continously been developed over many years. The 1st edition was released back in 1858, and is not on its 42nd release as of October, 2020, though only the prior version will be used for analysis in this project.
 
 This could potentially mean that 5 years worth of results in research on the human anatomy is not included in this analysis, and information compared to Wikipedia pages could be outdated, just as the Wikipedia pages could be likely to have outdated information.
 
@@ -62,7 +62,13 @@ Rather, as the node colors are quite widespread, it seems that the nodes could b
 
 ### Communities
 
-Using...
+To study why the nodes are connected in a specific way we are going to find the subnetworks in which the nodes are separated based on the number on links between them. For this we use a community detection method: the [Python Louvain-algorithm implementation](https://perso.crans.org/aynaud/communities/). The quality of the communities detected is measured by the modularity parameter. "Modularity is a property of how one decides to partition a network: networks that are not partitioned and those that place every node in its own community will both have modularity equal to zero" [](https://www.sciencedirect.com/topics/computer-science/community-detection). With community detection the goal is to find communities that maximize modularity.
+Now that we are more familiriaze with communitites, let's talk about the communities found on the human body graph. We got 9 communities, so we will continue the analisys with all of them as all of them are formed by a significant number of nodes. Here we present a distribution of the mentioned communities to show the number of communities and the amount of nodes in each one:
+
+[image]
+
+When calculatin the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
+"suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
 
 This time using the communities to color the nodes, and again scaling the nodes according to their respective degrees, a representation of the community partition can be made.
 
