@@ -103,15 +103,15 @@ The above figure clearly shows that the degrees of a random network (ER) follow 
 
 ### Centrality
 
-**Degree centrality** is tied to the connectivity (degree) of a node and should also be the nodes with the highest number of combined in and out references. The 5 nodes with highest degree centrality are: *Artery*, *Facial nerve*, *Pelvis*, *Human brain* and *Vagus nerve*. The most pages are either referenced on these pages, or references to these pages.
+**Degree centrality** is tied to the connectivity (degree) of a node and should also be the nodes with the highest number of combined in and out references. The 5 nodes with highest degree centrality are: "Artery", "Facial nerve", "Pelvis", "Human brain" and "Vagus nerve". The most pages are either referenced on these pages, or references to these pages.
 
-**Betweenness centrality** is defined by how many times a given node happens to be on the shortest path between two nodes in the network. The 5 nodes with the highest betweenness centrality are: *Vein*, *Artery*, *Human brain*, *Hand*, and *Spinal nerve*. These are the pages you are most likely to go through when you are trying to get from one anatomical Wikipedia page to another on the shortest path. Interestingly, *Vein* has less direct connections, but are more likely to be passed through than *Artery* who had the highest degree.
+**Betweenness centrality** is defined by how many times a given node happens to be on the shortest path between two nodes in the network. The 5 nodes with the highest betweenness centrality are: "Vein", "Artery", "Human brain", "Hand", and "Spinal nerve". These are the pages you are most likely to go through when you are trying to get from one anatomical Wikipedia page to another on the shortest path. Interestingly, *Vein* has less direct connections, but are more likely to be passed through than "Artery" who had the highest degree.
 
 **Eigenvector centrality** is defined by a nodes importance to the network, i.g. how many "important" nodes a given node is connected to. This is split up into "left" eigenvector centrality, i.g. the importance of the nodes that are referencing a given node, and by reversing the network, the eigenvector centrality referencing the importance of the nodes that are being referenced by a node can be found.
 
-The 5 nodes with the highest eigenvector centrality corresponding to in-edges are: *Vagus nerve*, *Heart*, *Artery*, *Aorta* and *Trachea*. *Vagus nerve* by far has the highest eigenvector centrality, meaning that it is connected to other nodes which has a high importance to the connectivity of the network, meaning that it is probably very important to the general nervous system and the surrounding organs.
+The 5 nodes with the highest eigenvector centrality corresponding to in-edges are: "Vagus nerve", "Heart", "Artery", "Aorta" and "Trachea". "Vagus nerve" by far has the highest eigenvector centrality, meaning that it is connected to other nodes which has a high importance to the connectivity of the network, meaning that it is probably very important to the general nervous system and the surrounding organs.
 
-The 5 nodes with the highest eigenvector centrality corresponding to out-edges are: *Human brain*, *Common carotid artery*, *Aorta*, *Cranial nerves* and *Lung*. These nodes are the Wikipedia pages that are the most important to the network when looking at referencing other important nodes.
+The 5 nodes with the highest eigenvector centrality corresponding to out-edges are: "Human brain", "Common carotid artery", "Aorta", "Cranial nerves" and "Lung". These nodes are the Wikipedia pages that are the most important to the network when looking at referencing other important nodes.
 
 ### Systems
 
