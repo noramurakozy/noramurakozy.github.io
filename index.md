@@ -177,12 +177,10 @@ The texts were found to be equally readable, but let's see if the same words are
 For this, four wordclouds have benn constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using TF-IDF to find these words.
 
 So firt we have the wordcloud for the Wikipedia pages and the textbook when using Term Frequency.
-![Wikipedia tf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_pages_tf.png)
-![Book tf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_gray_anatomy_book_tf.png)
+![Wikipedia book_tf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_book_tf.png)
 
 Next we see the wordclouds for both but using Term Frequency- Inverse Document Frequency.
-![Wikipedia tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_pages_tfidf.png)
-![Book tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_gray_anatomy_book_tfidf.png)
+![Wikipedia book_tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_book_tfidf.png)
 
 ### Systems
 
