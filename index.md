@@ -201,8 +201,8 @@ First, we have the wordclouds for the Wikipedia pages and the textbook when usin
 :-------------------------:|:-------------------------:
 Figure 5 - Wordclouds of the most frequent words for the Wikipedia Pages. | Figure 6: Wordclouds of the most frequent words for Gray's Anatomy book.
 
-Here it can be seen that the frequent words on Wikipedia are mostly anotomical, but there are also some "Wikipedia words" that have snuck in,
-e.g. "image", "text", and "page".
+On the left, it can be seen that the frequent words on Wikipedia are mostly anotomical, but there are also some "Wikipedia words" that have snuck in,
+e.g. "image", "text", and "page". On the right, the textbook also contains mainly anatomical words, but a few common words that do not mean much for the text, and was not filtered out as stopwords, are still present, e.g. "may" and "usually".
 
 Next we see the wordclouds for both when using Term Frequency- Inverse Document Frequency.
 
@@ -210,8 +210,6 @@ Next we see the wordclouds for both when using Term Frequency- Inverse Document 
 :-------------------------:|:-------------------------:
 Figure 7 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 8: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
 
-The textbook also contains mainly anatomical words, but a few common words that do not mean much for the text, and was not filtered out as stopwords,
-are still present, e.g. "may" and "usually".
 
 Now that the unique words of both texts have been filtered, the results are quite interesting. It can be seen that many of the words are still medical terms. "fiber" is, for example, mentioned more on Wikipedia than in the textbook. This is because the textbook usually referes to "fibres" a lot more. The opposite can be said about neurone, which Wikipedia does not really use, but the textbook does.
 Another example is that "cell" is a common word in both texts, but is mentioned enough in the textbook to still make it through the TF-IDF filtering.
