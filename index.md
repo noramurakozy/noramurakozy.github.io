@@ -257,7 +257,7 @@ Gray's Anatomy	|	1084200	|	46554	|	23.29	|	24552	|	2.26%	|	109598	|	10.11%	|	893
 
 > Table 6: Summation of the overall text analysis.
 
-Further analyses have been done on the [Wikipedia pages](https://noramurakozy.github.io/wiki) and [Gray's Anatomy](https://noramurakozy.github.io/book) for those interested.
+Further analyses have been done on the [Gray's Anatomy](https://noramurakozy.github.io/book) for those interested.
 
 ### Most common words
 
@@ -342,33 +342,34 @@ In this section we will apply TF-IDF to the communities as well, this will give 
 
 As in previous points, first we get the list of tokens (words) of each community, calculate the TF-IDF values and then draw the wordclouds for each community:
 
-![c1](/images/wordcloud_Pelvis-Sacrum-Hip_bone.png)  |  ![c2](/images/wordcloud_Human_tooth-Ear-Trigeminal_nerve.png)
+
+![c1](/images/community_1.png)  |  ![c2](/images/community_2.png)
 :-------------------------:|:-------------------------:
 Figure 12 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 13: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
 
 <br>
 
-![c3](/images/wordcloud_Heart-Lung-Thyroid.png)  |  ![c4](/images/wordcloud_Human_brain-Cerebellum-Spinal_cord.png)
+![c3](/images/community_3.png)  |  ![c4](/images/community_4.png)
 :-------------------------:|:-------------------------:
 Figure 14 - Wordcloud of the Heart-Lung-Thyroid community. | Figure 15: Wordclouds of the Human_brain-Cerebellum-Spinal_cord community.
 
 <br>
 
-![c5](/images/wordcloud_Scapula-Hand-Humerus.png)  |  ![c6](/images/wordcloud_Human_skin-Tendon-Foot.png)
+![c5](/images/community_5.png)  |  ![c6](/images/community_6.png)
 :-------------------------:|:-------------------------:
 Figure 16 - Wordcloud of the Scapula-Hand-Humerus community. | Figure 17: Wordclouds of the Human_skin-Tendon-Foot community.
 
 <br>
 
-![c7](/images/wordcloud_Retina-Human_eye-Lens_(anatomy).png)  |  ![c8](/images/wordcloud_Clitoris-Vagina-Vulva.png)
+![c7](/images/community_7.png)  |  ![c8](/images/community_8.png)
 :-------------------------:|:-------------------------:
 Figure 18 - Wordcloud of the Retina-Human_eye-Lens community. | Figure 19: Wordclouds of the Clitoris-Vagina-Vulva community.
 
 <br>
 
-![c9](/images/wordcloud_Liver-Kidney-Pancreas.png)  |  
-:-------------------------:|
-Figure 19 - Wordcloud of the Liver-Kidney-Pancreas community. | 
+![c9](/images/community_9.png)  |  <img width=500/>
+:-------------------------:|:-------------------------:
+Figure 19 - Wordcloud of the Liver-Kidney-Pancreas community. | <img width=1130/>
 
 <br>
 
@@ -397,8 +398,6 @@ This means that it can be concluded that the communities (and thus Wikipedia lin
 ### Communities and System similarities and differences
 
 It can be seen in the system word clouds that some common anatomical terms like "artery" in the circulatory system, "nucleus" in the nervous system, and "tendon" in the muscular system are more important in the systems wordclouds and not in the communities ones, meaning that these words are more spread out between the communities, this support again the claim that the communites mostly do not describe the systems. On the other hand, the wordcloud of the community about the reproductive organs is quite similar to the reproductive system wordcloud but still they give different importance to the same words.
-
-## Conclusions
 
 ## References
 [1] https://en.wikipedia.org/wiki/Degree_distribution
