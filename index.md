@@ -184,6 +184,10 @@ Next we see the wordclouds for both but using Term Frequency- Inverse Document F
 ![Wikipedia tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_pages_tfidf.png)
 ![Book tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_gray_anatomy_book_tfidf.png)
 
+### Systems
+
+![circulatory_digestive](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_circulatory_digestive.png)
+
 
 ### Communities
 
