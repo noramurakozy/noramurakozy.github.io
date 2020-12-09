@@ -253,7 +253,7 @@ Now we can get the TF-IDF values for all the system to draw the following wordcl
 
 <figure>
   <img src="./images/wordcloud_Urinary_system.png" alt="tf_idf5" style="width:60%; text-align: center" >
-  <figcaption style="text-align: center" > <em> Figure 11 - Wordclouds for the urinary. </em> </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 11 - Wordclouds for the urinary system. </em> </figcaption>
 </figure>
 
 CONCLUSION
