@@ -1,6 +1,6 @@
 # The Human Body
 
-The website is a result of the analysis made from [this Python notebook](link).
+The website is a result of the analysis made from [this Python notebook](https://nbviewer.jupyter.org/github/noramurakozy/noramurakozy.github.io/blob/main/notebook.ipynb).
 
 ## Introduction
 
