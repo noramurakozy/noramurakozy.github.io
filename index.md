@@ -216,7 +216,7 @@ Next we see the wordclouds for both when using Term Frequency- Inverse Document 
 CONCLUSION
 
 ### Systems
-The nodes in our network have an attribute called "System", which represent the system in which the node belongs to. We also want to create the wordclouds for these systems, which are 9 in total, to compare with the communities ones that are going to be create later. We repeat the same operations as before with the TF-IDF wordclouds, so we get the unique words of each system in our network. 
+The nodes in our network have an attribute called "System", which represent the system in which the node belongs to. We also want to create the wordclouds for these systems, which are 9 in total, to compare with the communities ones that are going to be created later. We repeat the same operations as before with the TF-IDF wordclouds, so we get the unique words of each system in our network. 
 
 Before creating the wordclouds, we get the names of the systems:
  - Circulatory system
@@ -231,7 +231,7 @@ Before creating the wordclouds, we get the names of the systems:
  
 And with them we create the dictionary that will contains each system with its corresponding txt files. 
 
-Now we can get the TF-IDF values for all the system to draw the following wordclouds:
+In this way we can get the TF-IDF values for all the systems and draw the following wordclouds:
 
 <figure>
   <img src="./images/wordcloud_circulatory_digestive.png" alt="tf_idf1" style="width:100%">
