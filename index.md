@@ -187,7 +187,9 @@ Next we see the wordclouds for both but using Term Frequency- Inverse Document F
 ### Systems
 
 ![circulatory_digestive](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_circulatory_digestive.png)
-
+![muscular_nervous](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_muscular_nervous.png)
+![endocrine_integumentary](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_endocrine_integumentary.png)
+![reproductive_respiratory](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_reproductive_respiratory.png)
 
 ### Communities
 
