@@ -289,8 +289,7 @@ Figure 18 - Wordcloud of a community. | Figure 19: Wordclouds of a community.
 Figure 19 - Wordcloud of a community. | 
 
 
-
-With the most unique words in each community, it is possible to get better understanding of what each community contains, and if the title reflects the content.
+The title of each wordcloud are the three longest pages found in each commmunity. With them it is possible to get a better understanding of what each community contains.
 
 For the "Pelvis-Sacrum-Hip bone" community, it is found that this community is in fact centered around the hip, pelvis, thigh area with words like: "vastus", "femur" and "gluteal".
 
@@ -308,7 +307,7 @@ The "Retina-Human eye-Lens (anatomy)" community the words are quite clearly all 
 
 The "Clitoris-Vagina-Vulva" community has nicely collected everything about the male and female reproductive systems, and it is quite clear and cut.
 
-Lastly, the "Liver-Kidney-Pancreas" community is also showing to be about the 
+Lastly, the "Liver-Kidney-Pancreas" community is also showing to be about the intestine zone.
 
 This means that it can be concluded that the communities (and thus Wikipedia links) are mostly based on the organs placement in the body more than the anatomical systems that they belong to.
 
