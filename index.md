@@ -60,7 +60,7 @@ The systems were defined manually according to the Wikipedia source. Using this 
 
 <figure>
   <img src="./images/the_human_body_systems.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > Figure 2 - Network of the human body using ForceAtlas </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 2 - Network of the human body using ForceAtlas </em> </figcaption>
 </figure>
 
 Here it can be seen that the network is not actually connected according to the defined systems.
@@ -74,7 +74,7 @@ Now that we are more familiriaze with communitites, let's talk about the communi
 
 <figure>
   <img src="./images/communities_distribution.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > Figure 2 - Network of the human body using ForceAtlas </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 3 - Network of the human body using ForceAtlas </em> </figcaption>
 </figure>
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
@@ -82,9 +82,10 @@ When calculating the modularity for the partitions, we get a modularity over 0.5
 
 This time using the communities to color the nodes, and again scaling the nodes according to their respective degrees, a representation of the community partition can be made.
 
-![Image of network with communities](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_communities.png)
-
-> Figure 4 - The human body network where the nodes are colored by the system they belongs to
+<figure>
+  <img src="./images/the_human_body_communities.png" alt="Trulli" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 4 - The human body network where the nodes are colored by the system they belongs to </em> </figcaption>
+</figure>
 
 The same colored nodes are very different in this representation compared to that with the systems used for coloring.
 This means that the systems and communities are definitely not the same.
@@ -189,10 +190,26 @@ The texts were found to be equally readable, but let's see if the same words are
 For this, four wordclouds have been constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using TF-IDF to find these words.
 
 First, we have the wordcloud for the Wikipedia pages and the textbook when using Term Frequency.
-![Wikipedia book_tf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_book_tf.png)
+
+<figure>
+  <img src="./images/wordcloud_wikipedia_book_tf.png" alt="wd_tf" style="width:100%">
+  <figcaption style="text-align: center" > 
+    <em> 
+      Figure 5 - Wordclouds that represents the most frequent words for the Wikipedia Pages and Gray's Anatomy book respectively. 
+    </em> 
+  </figcaption>
+</figure>
 
 Next we see the wordclouds for both but using Term Frequency- Inverse Document Frequency.
-![Wikipedia book_tfidf](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_wikipedia_book_tfidf.png)
+
+<figure>
+  <img src="./images/wordcloud_wikipedia_book_tfidf.png" alt="wd_tf_idf" style="width:100%">
+  <figcaption style="text-align: center" > 
+    <em> 
+      Figure 6 - Wordclouds that represents the most frequent words weighted by Inverse Document Frequency for the Wikipedia Pages and Gray's Anatomy book respectively. 
+    </em> 
+  </figcaption>
+</figure>
 
 CONCLUSION
 
