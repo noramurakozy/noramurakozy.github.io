@@ -52,7 +52,7 @@ Let's do some further analysis of the network and return to the representation l
 
 ### Connectivity
 
-As defined by [1]: "The degree of a node in a network is the number of connections it has to other nodes, and the degree distribution is the probability distribution of these degrees over the whole network", we will study first the connectivity of the network. As this is a directed graph, we can easily check the most connected nodes, and the connections coming in and going out of each node. 
+As defined by [[1]](#1): "The degree of a node in a network is the number of connections it has to other nodes, and the degree distribution is the probability distribution of these degrees over the whole network", we will study first the connectivity of the network. As this is a directed graph, we can easily check the most connected nodes, and the connections coming in and going out of each node. 
 
 The pages with most references to other anatomy pages:
 1.	Human brain with 75 degrees
@@ -141,7 +141,7 @@ Rather, as the node colors are quite widespread, it seems that the nodes could b
 
 ### Communities
 
-To study why the nodes are connected in a specific way we are going to find the subnetworks in which the nodes are separated based on the number on links between them. For this we use a community detection method: the [Python Louvain-algorithm implementation](https://perso.crans.org/aynaud/communities/). The quality of the communities detected is measured by the modularity parameter. As said in [2], "Modularity is a property of how one decides to partition a network: networks that are not partitioned and those that place every node in its own community will both have modularity equal to zero". With community detection the goal is to find communities that maximize modularity.
+To study why the nodes are connected in a specific way we are going to find the subnetworks in which the nodes are separated based on the number on links between them. For this we use a community detection method: the [Python Louvain-algorithm implementation](https://perso.crans.org/aynaud/communities/). The quality of the communities detected is measured by the modularity parameter. As said in [[2]](#2), "Modularity is a property of how one decides to partition a network: networks that are not partitioned and those that place every node in its own community will both have modularity equal to zero". With community detection the goal is to find communities that maximize modularity.
 
 Now that we are more familiriaze with communitites, let's talk about the communities found on the human body graph. We got 9 communities, so we will continue the analisys with all of them as all of them are formed by a significant number of nodes. Here we present a distribution of the mentioned communities to show the number of communities and the amount of nodes in each one:
 
@@ -400,14 +400,13 @@ This means that it can be concluded that the communities (and thus Wikipedia lin
 It can be seen in the system word clouds that some common anatomical terms like "artery" in the circulatory system, "nucleus" in the nervous system, and "tendon" in the muscular system are more important in the systems wordclouds and not in the communities ones, meaning that these words are more spread out between the communities, this support again the claim that the communites mostly do not describe the systems. On the other hand, the wordcloud of the community about the reproductive organs is quite similar to the reproductive system wordcloud but still they give different importance to the same words.
 
 ## References
-[1] https://en.wikipedia.org/wiki/Degree_distribution
-
-[2] https://www.sciencedirect.com/topics/computer-science/community-detection
-
 <a id="1">[1]</a> 
-Dijkstra, E. W. (1968). 
-Go to statement considered harmful. 
-Communications of the ACM, 11(3), 147-148.
+https://en.wikipedia.org/wiki/Degree_distribution
+
+<a id="1">[2]</a> 
+https://www.sciencedirect.com/topics/computer-science/community-detection
+
+
 
 
 
