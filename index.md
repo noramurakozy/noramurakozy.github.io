@@ -401,10 +401,10 @@ It can be seen in the system word clouds that some common anatomical terms like 
 
 ## References
 <a id="1">[1]</a> 
-[https://en.wikipedia.org/wiki/Degree_distribution]https://en.wikipedia.org/wiki/Degree_distribution
+[https://en.wikipedia.org/wiki/Degree_distribution] https://en.wikipedia.org/wiki/Degree_distribution
 
 <a id="2">[2]</a> 
-[https://www.sciencedirect.com/topics/computer-science/community-detection]https://www.sciencedirect.com/topics/computer-science/community-detection
+[https://www.sciencedirect.com/topics/computer-science/community-detection] https://www.sciencedirect.com/topics/computer-science/community-detection
 
 
 
