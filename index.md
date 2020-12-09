@@ -41,9 +41,10 @@ Let's start by simply visualizing the network.
 For this, and further representations, undirected version of the networks are used, as they are easier to visualize.
 Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the positions in the network, a basic representation of the network can be made, showing the nodes and edges.
 
-[network1](./images/the_human_body_simple.png)
-
-> Figure 1 - Simple drawing version of the human body network.
+<figure>
+  <img src="./images/the_human_body_simple.png" alt="fi1" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 2 - Network of the human body, simple version. </em> </figcaption>
+</figure>
 
 It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
 Let's do some further analysis of the network and return to the representation later.
