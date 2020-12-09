@@ -41,7 +41,10 @@ Let's start by simply visualizing the network.
 For this, and further representations, undirected version of the networks are used, as they are easier to visualize.
 Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the positions in the network, a basic representation of the network can be made, showing the nodes and edges.
 
-![Image of simple network](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_simple.png)
+<figure>
+  <img src="https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/the_human_body_simple.png" alt="Trulli" style="width:100%">
+  <figcaption style="text-align: center" > Figure 1 - Community distribution in the humna body network </figcaption>
+</figure>
 
 > Figure 1 - Simple drawing version of the network of the human body
 
