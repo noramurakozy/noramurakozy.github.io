@@ -272,7 +272,7 @@ Figure 12 - Wordcloud of a community. | Figure 13: Wordclouds of a community.
 
 <br>
 
-![c3](/images/wordcloud_Heart-Lung-Thyroid.png)  |  ![c4](/images/wordcloud_Human brain-Cerebellum-Spinal cord.png)
+![c3](/images/wordcloud_Heart-Lung-Thyroid.png)  |  ![c4](/images/wordcloud_Human_brain-Cerebellum-Spinal_cord.png)
 :-------------------------:|:-------------------------:
 Figure 14 - Wordcloud of a community. | Figure 15: Wordclouds of a community.
 
