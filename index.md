@@ -326,10 +326,12 @@ This means that it can be concluded that the communities (and thus Wikipedia lin
 
 It can be seen in the system word clouds that some common anatomical terms like "artery" in the circulatory system, "nucleus" in the nervous system, and "tendon" in the muscular system are more important in the systems wordclouds and not in the communities ones, meaning that these words are more spread out between the communities, this support again the claim that the communites mostly do not describe the systems. On the other hand, the wordcloud of the community about the reproductive organs is quite similar to the reproductive system wordcloud but still they give different importance to the same words.
 
+## Conclusions
+
 ## References
 [1] https://www.sciencedirect.com/topics/computer-science/community-detection
 
 
-## Conclusions
+
 
 
