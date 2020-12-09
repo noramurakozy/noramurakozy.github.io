@@ -1,6 +1,6 @@
 # The Human Body
 
-The website is a result of the analysis made from [this Python notebook](https://nbviewer.jupyter.org/github/noramurakozy/noramurakozy.github.io/blob/main/notebook.ipynb).
+The website is a result of the analysis made from [this Python notebook](link).
 
 ## Introduction
 
@@ -134,7 +134,7 @@ These systems were defined manually according to the Wikipedia source. Using thi
   <img src="./images/the_human_body_systems.png" alt="Trulli" style="width:100%">
 </figure>
 
-> Figure 2 - Network of the human body using ForceAtlas.
+> Figure 4 - Network of the human body using ForceAtlas.
 
 Here it can be seen that the network is not actually connected according to the defined systems.
 Rather, as the node colors are quite widespread, it seems that the nodes could be connected according to their respective location in the body.
@@ -149,7 +149,7 @@ Now that we are more familiriaze with communitites, let's talk about the communi
   <img src="./images/communities_distribution.png" alt="communities" style="width:100%">
 </figure>
 
-> Figure 3 - Distribution of the networks's communities. It can easily be count the 9 communities.
+> Figure 5 - Distribution of the networks's communities. It can easily be count the 9 communities.
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
 "suboptimal partition", a "single community" or a "negative modularity". In our case, as the modularity is over 0.5 we have an "Optimal Partition".
@@ -160,7 +160,7 @@ This time using the communities to color the nodes, and again scaling the nodes 
   <img src="./images/the_human_body_communities.png" alt="Trulli" style="width:100%">
 </figure>
 
-> Figure 4 - The human body network where the nodes are colored by the system they belongs to.
+> Figure 6 - The human body network where the nodes are colored by the system they belongs to.
 
 The same colored nodes are very different in this representation compared to that with the systems used for coloring.
 This means that the systems and communities are definitely not the same.
@@ -263,14 +263,14 @@ Further analyses have been done on the [Gray's Anatomy](https://noramurakozy.git
 
 The texts were found to be equally readable, but let's see if the same words are being used on the Wikipedia pages and in the textbook.
 
-For this, four wordclouds have been constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using **Term Frequency – Inverse Document Frequency (TF-IDF)** - to find these words. Term Frequency is is the number of times a term (word) occurs in a document. And TF-IDF is when that frequency of words is multiplied by a weight that adjust the fact that some words appear more frequently in general, so for example in our case the word "the" would have less importance than the word "heart". The equation for both, TF and TF-IDF, can be found in [here](https://en.wikipedia.org/wiki/Tf–idf).
+For this, four wordclouds have been constructed, two using the most used words in the texts, and two showing the words that are more unique for each text - using **Term Frequency – Inverse Document Frequency (TF-IDF)** - to find these words. Term Frequency is is the number of times a term (word) occurs in a document. And TF-IDF is when that frequency of words is multiplied by a weight that adjust the fact that some words appear more frequently in general, so for example in our case the word "the" would have less importance than the word "heart". More information together with the equations to apply can be found [here](https://en.wikipedia.org/wiki/Tf–idf).
 
 First, we have the wordclouds for the Wikipedia pages and the textbook when using only Term Frequency.
 
 
 ![w1](/images/wordcloud_wikipedia_pages_tf.png)  |  ![b1](/images/wordcloud_gray_anatomy_book_tf.png)
 :-------------------------:|:-------------------------:
-Figure 5 - Wordclouds of the most frequent words for the Wikipedia Pages. | Figure 6: Wordclouds of the most frequent words for Gray's Anatomy book.
+Figure 7 - Wordclouds of the most frequent words for the Wikipedia Pages. | Figure 6: Wordclouds of the most frequent words for Gray's Anatomy book.
 
 On the left, it can be seen that the frequent words on Wikipedia are mostly anotomical, but there are also some "Wikipedia words" that have snuck in,
 e.g. "image", "text", and "page". On the right, the textbook also contains mainly anatomical words, but a few common words that do not mean much for the text, and was not filtered out as stopwords, are still present, e.g. "may" and "usually".
@@ -279,7 +279,7 @@ Next we see the wordclouds for both when using Term Frequency- Inverse Document 
 
 ![w2](/images/wordcloud_wikipedia_pages_tfidf.png)  |  ![b2](/images/wordcloud_gray_anatomy_book_tfidf.png)
 :-------------------------:|:-------------------------:
-Figure 7 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 8: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
+Figure 8 - Wordclouds weighted by Inverse Document Frequency for Wikipedia Pages. | Figure 8: Wordclouds weighted by Inverse Document Frequency for Gray's Anatomy book.
 
 
 Now that the unique words of both texts have been filtered, the results are quite interesting. It can be seen that many of the words are still medical terms. "fiber" is, for example, mentioned more on Wikipedia than in the textbook. This is because the textbook usually referes to "fibres" a lot more. The opposite can be said about neurone, which Wikipedia does not really use, but the textbook does.
@@ -306,31 +306,31 @@ In this way we can get the TF-IDF values for all the systems and draw the follow
 
 ![s1](/images/wordcloud_Circulatory_system.png)  |  ![s2](/images/wordcloud_Digestive_system.png)
 :-------------------------:|:-------------------------:
-Figure 7 - Circulatory system wordcloud. | Figure 8: Digestive system wordcloud.
+Figure 9 - Circulatory system wordcloud. | Figure 10: Digestive system wordcloud.
 
 <br>
 
 ![s3](/images/wordcloud_Endocrine_system.png)  |  ![s4](/images/wordcloud_Integumentary_system.png)
 :-------------------------:|:-------------------------:
-Figure 9 - Endocrine system wordcloud. | Figure 10: Integumentary system wordcloud.
+Figure 11 - Endocrine system wordcloud. | Figure 12: Integumentary system wordcloud.
 
 <br>
 
 ![s5](/images/wordcloud_Muscular_system.png)  |  ![s6](/images/wordcloud_Nervous_system.png)
 :-------------------------:|:-------------------------:
-Figure 11 - Muscular system wordcloud. | Figure 12: Nervous system wordcloud.
+Figure 13 - Muscular system wordcloud. | Figure 14: Nervous system wordcloud.
 
 <br>
 
 ![s7](/images/wordcloud_Reproductive_organs.png)  |  ![s8](/images/wordcloud_Respiratory_system.png)
 :-------------------------:|:-------------------------:
-Figure 13 - Reproductive organs wordcloud. | Figure 14: Respiratory system wordclouds.
+Figure 15 - Reproductive organs wordcloud. | Figure 16: Respiratory system wordclouds.
 
 <br>
 
 ![s9](/images/wordcloud_Urinary_system.png)  |  
 :-------------------------:|
-Figure 15 - Urinary system wordcloud. | 
+Figure 17 - Urinary system wordcloud. | 
 
 <br>
 
@@ -345,31 +345,31 @@ As in previous points, first we get the list of tokens (words) of each community
 
 ![c1](/images/community_1.png)  |  ![c2](/images/community_2.png)
 :-------------------------:|:-------------------------:
-Figure 12 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 13: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
+Figure 18 - Wordcloud of the Pelvis-Sacrum-Hip_bone community. | Figure 19: Wordclouds of the tooth-Ear-Trigeminal_nerve community.
 
 <br>
 
 ![c3](/images/community_3.png)  |  ![c4](/images/community_4.png)
 :-------------------------:|:-------------------------:
-Figure 14 - Wordcloud of the Heart-Lung-Thyroid community. | Figure 15: Wordclouds of the Human_brain-Cerebellum-Spinal_cord community.
+Figure 20 - Wordcloud of the Heart-Lung-Thyroid community. | Figure 21: Wordclouds of the Human_brain-Cerebellum-Spinal_cord community.
 
 <br>
 
 ![c5](/images/community_5.png)  |  ![c6](/images/community_6.png)
 :-------------------------:|:-------------------------:
-Figure 16 - Wordcloud of the Scapula-Hand-Humerus community. | Figure 17: Wordclouds of the Human_skin-Tendon-Foot community.
+Figure 22 - Wordcloud of the Scapula-Hand-Humerus community. | Figure 23: Wordclouds of the Human_skin-Tendon-Foot community.
 
 <br>
 
 ![c7](/images/community_7.png)  |  ![c8](/images/community_8.png)
 :-------------------------:|:-------------------------:
-Figure 18 - Wordcloud of the Retina-Human_eye-Lens community. | Figure 19: Wordclouds of the Clitoris-Vagina-Vulva community.
+Figure 24 - Wordcloud of the Retina-Human_eye-Lens community. | Figure 25: Wordclouds of the Clitoris-Vagina-Vulva community.
 
 <br>
 
 ![c9](/images/community_9.png)  |  <img width=500/>
 :-------------------------:|:-------------------------:
-Figure 19 - Wordcloud of the Liver-Kidney-Pancreas community. | <img width=1130/>
+Figure 26 - Wordcloud of the Liver-Kidney-Pancreas community. | <img width=1130/>
 
 <br>
 
