@@ -404,6 +404,10 @@ It can be seen in the system word clouds that some common anatomical terms like 
 
 [2] https://www.sciencedirect.com/topics/computer-science/community-detection
 
+<a id="1">[1]</a> 
+Dijkstra, E. W. (1968). 
+Go to statement considered harmful. 
+Communications of the ACM, 11(3), 147-148.
 
 
 
