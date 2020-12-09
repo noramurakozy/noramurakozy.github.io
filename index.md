@@ -43,7 +43,7 @@ Using [ForceAtlas2](https://github.com/bhargavchippada/forceatlas2) to draw the 
 
 <figure>
   <img src="./images/the_human_body_simple.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 1 - Simple drawing version of the network of the human body </em> </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 1 - Simple drawing version of the human body network. </em> </figcaption>
 </figure>
 
 It can clearly be seen that some nodes have more connections than others, but not a lot can be said from this representation so far.
@@ -60,7 +60,7 @@ The systems were defined manually according to the Wikipedia source. Using this 
 
 <figure>
   <img src="./images/the_human_body_systems.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 2 - Network of the human body using ForceAtlas </em> </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 2 - Network of the human body using ForceAtlas. </em> </figcaption>
 </figure>
 
 Here it can be seen that the network is not actually connected according to the defined systems.
@@ -73,8 +73,8 @@ To study why the nodes are connected in a specific way we are going to find the 
 Now that we are more familiriaze with communitites, let's talk about the communities found on the human body graph. We got 9 communities, so we will continue the analisys with all of them as all of them are formed by a significant number of nodes. Here we present a distribution of the mentioned communities to show the number of communities and the amount of nodes in each one:
 
 <figure>
-  <img src="./images/communities_distribution.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 3 - Network of the human body using ForceAtlas </em> </figcaption>
+  <img src="./images/communities_distribution.png" alt="communities" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 3 - Distribution of the networks's communities. It can easily be count the 9 communities.  </em> </figcaption>
 </figure>
 
 When calculating the modularity for the partitions, we get a modularity over 0.5 . As explained in chapter 9 of the [Network Science book](http://networksciencebook.com/chapter/9#introduction9), based on modularity value the partition can be an "optimal partition", a 
@@ -84,7 +84,7 @@ This time using the communities to color the nodes, and again scaling the nodes 
 
 <figure>
   <img src="./images/the_human_body_communities.png" alt="Trulli" style="width:100%">
-  <figcaption style="text-align: center" > <em> Figure 4 - The human body network where the nodes are colored by the system they belongs to </em> </figcaption>
+  <figcaption style="text-align: center" > <em> Figure 4 - The human body network where the nodes are colored by the system they belongs to. </em> </figcaption>
 </figure>
 
 The same colored nodes are very different in this representation compared to that with the systems used for coloring.
@@ -217,23 +217,44 @@ CONCLUSION
 The nodes in our network have an attribute called "System", which represent the system in which the node belongs to. We also want to create the wordclouds for these systems, which are 9 in total, to compare with the communities ones that are going to be create later. We repeat the same operations as before with the TF-IDF wordclouds, so we get the unique words of each system in our network. 
 
 Before creating the wordclouds, we get the names of the systems:
- - 'Circulatory system' 
- - 'Digestive system' 
- - 'Endocrine system'
- - 'Integumentary system'
- - 'Muscular system' 
- - 'Nervous system'
- - 'Reproductive organs' 
- - 'Respiratory system' 
- - 'Urinary system' 
+ - Circulatory system
+ - Digestive system 
+ - Endocrine system
+ - Integumentary system
+ - Muscular system
+ - Nervous system
+ - Reproductive organs
+ - Respiratory system
+ - Urinary system
+ 
 And with them we create the dictionary that will contains each systems with its corresponding txt files. 
 
 Now we can get the TF-IDF values for all the system to draw the following wordclouds:
-![circulatory_digestive](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_circulatory_digestive.png)
-![muscular_nervous](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_muscular_nervous.png)
-![endocrine_integumentary](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_endocrine_integumentary.png)
-![reproductive_respiratory](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_reproductive_respiratory.png)
-![urinary](https://github.com/noramurakozy/noramurakozy.github.io/blob/main/images/wordcloud_Urinary_system.png)
+
+<figure>
+  <img src="./images/wordcloud_circulatory_digestive.png" alt="tf_idf1" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the circulatory and the digestive systems. </em> </figcaption>
+</figure>
+
+<figure>
+  <img src="./images/wordcloud_muscular_nervous.png" alt="tf_idf2" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the muscular and the nervous systems. </em> </figcaption>
+</figure>
+
+<figure>
+  <img src="./images/wordcloud_endocrine_integumentary.png" alt="tf_idf3" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the endocrine and the integumentary systems. </em> </figcaption>
+</figure>
+
+<figure>
+  <img src="./images/wordcloud_reproductive_respiratory.png" alt="tf_idf4" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the reproductive and the respiratory systems. </em> </figcaption>
+</figure>
+
+<figure>
+  <img src="./images/wordcloud_Urinary_system.png" alt="tf_idf5" style="width:100%">
+  <figcaption style="text-align: center" > <em> Figure 7 - Wordclouds for the urinary. </em> </figcaption>
+</figure>
 
 CONCLUSION
 
